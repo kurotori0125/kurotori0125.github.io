@@ -3,13 +3,18 @@
 
 <head>
     <meta charset="utf-8" />
+<meta name="description" content="" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>圆形废墟</title>
-<link rel="shortcut icon" href="https://kurotori0125.github.io//favicon.ico?v=1616605903717">
-<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="shortcut icon" href="https://kurotori0125.github.io//favicon.ico?v=1616605969569">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 <link rel="stylesheet" href="https://kurotori0125.github.io//styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="圆形废墟 - Atom Feed" href="https://kurotori0125.github.io//atom.xml">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
+
+<!-- DEMO JS -->
+<script src="/media/scripts/index.js"></script>
 
 
 
@@ -24,7 +29,7 @@
     <div class="main animated">
         <div class="site-header">
   <a href="https://kurotori0125.github.io/">
-  <img class="avatar" src="https://kurotori0125.github.io//images/avatar.png?v=1616605903717" alt="">
+  <img class="avatar" src="https://kurotori0125.github.io//images/avatar.png?v=1616605969569" alt="">
   </a>
   <h1 class="site-title">
     圆形废墟
@@ -72,19 +77,23 @@
       
     
   </div>
+  <form id="gridea-search-form" action="https://kurotori0125.github.io//search/">
+    <input name="q" />
+  </form>
 </div>
 
-        <div id="gridea-search-result" data-update="1616605903717">
+        <div id="gridea-search-result" data-update="1616605969569">
             <div class="searching">搜索中......</div>
             <div class="no-result" style="display:none">未搜索到相关文章</div>
         </div>
     </div>
     <div class="site-footer">
   Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
-  <a class="rss" href="https://kurotori0125.github.io//atom.xml" target="_blank">
-    <i class="ri-rss-line"></i> RSS
-  </a>
 </div>
+
+<script>
+  hljs.initHighlightingOnLoad()
+</script>
 
     <script src="https://kurotori0125.github.io//media/gridea-search/result-template.ejs" type="text/ejs"></script>
     <script src="https://kurotori0125.github.io//media/gridea-search/fuse.basic.min.js"></script>
