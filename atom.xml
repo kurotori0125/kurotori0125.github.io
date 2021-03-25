@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kurotori0125.github.io/</id>
     <title>圆形废墟 The Circular Ruins</title>
-    <updated>2021-03-25T13:24:12.502Z</updated>
+    <updated>2021-03-25T13:31:32.726Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://kurotori0125.github.io/"/>
     <link rel="self" href="https://kurotori0125.github.io/atom.xml"/>
@@ -11,11 +11,23 @@
     <icon>https://kurotori0125.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, 圆形废墟 The Circular Ruins</rights>
     <entry>
+        <title type="html"><![CDATA[【7men侍 | 高光】大嫌い（未完）]]></title>
+        <id>https://kurotori0125.github.io/post/gao-guang-da-xian-i/</id>
+        <link href="https://kurotori0125.github.io/post/gao-guang-da-xian-i/">
+        </link>
+        <updated>2020-06-17T13:18:59.000Z</updated>
+        <summary type="html"><![CDATA[<p>我那个时候有点讨厌你。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>我那个时候有点讨厌你。</p>
+<!-- more -->
+]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[【7men侍 | 矢今】普通夏日]]></title>
         <id>https://kurotori0125.github.io/post/7men-shi-or-shi-jin-pu-tong-xia-ri/</id>
         <link href="https://kurotori0125.github.io/post/7men-shi-or-shi-jin-pu-tong-xia-ri/">
         </link>
-        <updated>2021-03-25T13:22:09.000Z</updated>
+        <updated>2020-05-19T07:02:09.000Z</updated>
         <summary type="html"><![CDATA[<p>矢花捧着个大西瓜，一路撩猫逗狗地穿过院子来敲今野家的门。这个静谧的午后，隔壁的八哥也热得懒得抬起眼皮，否则必然要给他一个大白眼。</p>
 ]]></summary>
         <content type="html"><![CDATA[<p>矢花捧着个大西瓜，一路撩猫逗狗地穿过院子来敲今野家的门。这个静谧的午后，隔壁的八哥也热得懒得抬起眼皮，否则必然要给他一个大白眼。</p>
@@ -110,15 +122,15 @@
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[【7men侍 | 高光】大嫌い（未完）]]></title>
-        <id>https://kurotori0125.github.io/post/gao-guang-da-xian-i/</id>
-        <link href="https://kurotori0125.github.io/post/gao-guang-da-xian-i/">
+        <title type="html"><![CDATA[【随笔】《Spring  in desperately shy》]]></title>
+        <id>https://kurotori0125.github.io/post/sui-bi-lesslessspring-in-desperately-shygreatergreater/</id>
+        <link href="https://kurotori0125.github.io/post/sui-bi-lesslessspring-in-desperately-shygreatergreater/">
         </link>
-        <updated>2020-06-17T13:18:59.000Z</updated>
-        <summary type="html"><![CDATA[<p>我那个时候有点讨厌你。</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>我那个时候有点讨厌你。</p>
-<!-- more -->
+        <updated>2019-04-21T13:26:17.000Z</updated>
+        <content type="html"><![CDATA[<p>Spring sees itself in a child's eyes,</p>
+<p>But from the mother's, it sees the other three rest.</p>
+<p>It shook hands with  both winter and summer for ten million times,</p>
+<p>But only secretly read the diary that autumn left.</p>
 ]]></content>
     </entry>
     <entry>
@@ -151,6 +163,86 @@
 <p>未来，它一定会成为你离不开的伙伴</p>
 <p>尽情发挥你的才华吧！</p>
 <p>😘 Enjoy~</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【二字】方十二小记（大纲）]]></title>
+        <id>https://kurotori0125.github.io/post/er-zi-fang-shi-er-xiao-ji-da-gang/</id>
+        <link href="https://kurotori0125.github.io/post/er-zi-fang-shi-er-xiao-ji-da-gang/">
+        </link>
+        <updated>2018-07-22T13:27:40.000Z</updated>
+        <content type="html"><![CDATA[<table>
+<thead>
+<tr>
+<th>次数</th>
+<th>岁数</th>
+<th>折前剩余寿命</th>
+<th>折后剩余寿命</th>
+<th>选择</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>0</td>
+<td>1000</td>
+<td>1000</td>
+<td></td>
+</tr>
+<tr>
+<td>1</td>
+<td>7</td>
+<td>993</td>
+<td>794.4</td>
+<td></td>
+</tr>
+<tr>
+<td>2</td>
+<td>11</td>
+<td>790.4</td>
+<td>632.3</td>
+<td></td>
+</tr>
+<tr>
+<td>3</td>
+<td>17</td>
+<td>626.3</td>
+<td>501</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>方十二出生在八折星，今年17岁，最多还剩下626年3个月18天可以活。</p>
+<p>从肩胛骨上的编码01来看，他做过两次”选择“，不过依照程序，他什么都不会记得。这两次选择已经融入了他其他千万次自主选择的意识里，无处追寻。</p>
+<p>当然，他也不知道方十二10,11和00在哪，在干什么，他们很可能比自己过得好，也很可能已经死了。</p>
+<p>他是很普通的，因为这个星球上，多得是做了很多次选择的人。只是他还小，大多数人可能还没有显现编码，或者只有1位。方十二也不是很困扰自己早早用掉了两次机会，也许是用来死里逃生了呢，他大度地想。</p>
+<p>也只有少年人有大把的勇气和满不在乎，来挥霍掉近两百年的时光换一个可能。只有麻木而急功近利的中年人，才会越来越随意地作出那个“选择”，因为每用一次，少掉的时间其实更少了一点。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【吴语伦比】小桑日记（未完）]]></title>
+        <id>https://kurotori0125.github.io/post/wu-yu-lun-bi-xiao-sang-ri-ji-wei-wan/</id>
+        <link href="https://kurotori0125.github.io/post/wu-yu-lun-bi-xiao-sang-ri-ji-wei-wan/">
+        </link>
+        <updated>2018-06-09T13:29:16.000Z</updated>
+        <summary type="html"><![CDATA[<p>一个大师兄伦比捡了襁褓里的吴语回来养的故事。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>一个大师兄伦比捡了襁褓里的吴语回来养的故事。</p>
+<!-- more -->
+<p>吴语总是被师傅派出去和别的门派切磋，做任务，参加武林大会。但是大师兄伦比从来没有下过山。</p>
+<p>他记得小时候拿着二师兄带回来的糖葫芦，砸吧这嘴想要大师兄讲讲山下的事，大师兄就是温柔地笑一笑，不回答。</p>
+<p>因为大师兄从来没有下过山。</p>
+<p>吴语年轻喜欢闹腾，回来开心地讲山下的奇遇，伦比慈爱地看着他。</p>
+<p>吴语偷看到山下的小花向伦比告白，但是伦比婉拒了，说自己不能下山。</p>
+<p>吴语更好奇了，问伦比，伦比岔开话题说是因为不能明着拒绝人家姑娘。</p>
+<p>ver.2</p>
+<p>啊啊啊我想到了，我要从第三视角来看？派里的扫地道童小桑，遇到温柔的大师兄伦比倾心教授，有些废柴》但是有传说233.</p>
+<p>小桑慢慢成长，期间吴语回来了。吴语生伦比的气。</p>
+<p>小桑撞见伦比求和，吴语摔门。</p>
+<p>小桑撞见小花和伦比告白，小桑喜欢小花，有点难过，失神走出去撞到了吴语，看见他眼睛有点红。尬聊了一会。伦比走过来了，小桑大喊，师兄我祝福你就想跑，伦比拉住他说你干什么。误会解开，吴语抿着嘴神色缓和了一点。并且开始对小桑态度不错？</p>
+<p>但是由于小桑我和伦比平时比较亲，吴语又瞬间降温，忽冷忽热。</p>
+<p>不对啊我本来是想写小桑先遇到伦比，后遇到吴语，发现他俩之间的联系。但是通篇不应该有吴语伦比的直接面对面啊。应该是个be，讲伦比永远出不去，吴语也永远在外面流浪。</p>
+<p>我叫小桑，是大师兄伦比在半山腰捡回来的。</p>
 ]]></content>
     </entry>
 </feed>
