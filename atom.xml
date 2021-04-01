@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kurotori0125.github.io/</id>
     <title>圆形废墟 The Circular Ruins</title>
-    <updated>2021-04-01T13:55:34.311Z</updated>
+    <updated>2021-04-01T14:08:28.659Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://kurotori0125.github.io/"/>
     <link rel="self" href="https://kurotori0125.github.io/atom.xml"/>
@@ -552,11 +552,16 @@
         <link href="https://kurotori0125.github.io/post/r1se-or-rang-ye-santa-tracker/">
         </link>
         <updated>2020-12-25T12:53:31.000Z</updated>
-        <content type="html"><![CDATA[<h1 id="让也santa-tracker">【让也】Santa Tracker</h1>
-<blockquote>
+        <summary type="html"><![CDATA[<blockquote>
 <p>圣诞老人刘也 x 圣诞迷弟赵让</p>
 <p>嗨！你知道圣诞老人的旅程会持续 25 个小时吗？！</p>
 </blockquote>
+]]></summary>
+        <content type="html"><![CDATA[<blockquote>
+<p>圣诞老人刘也 x 圣诞迷弟赵让</p>
+<p>嗨！你知道圣诞老人的旅程会持续 25 个小时吗？！</p>
+</blockquote>
+<!-- more -->
 <p>”洛洛洛洛洛洛，这有个网站可以在圣诞节跟踪圣诞老人欸！“</p>
 <p>“真的啊，快看看他到哪了？！“</p>
 <p>“要到后天真的圣诞节才行啦！”</p>
@@ -748,9 +753,15 @@
         <link href="https://kurotori0125.github.io/post/31-tian-tian-quan-mei-mai-wan/">
         </link>
         <updated>2020-04-01T13:35:45.000Z</updated>
-        <content type="html"><![CDATA[<h1 id="31甜甜圈没卖完">【31】甜甜圈没卖完</h1>
-<blockquote>
+        <summary type="html"><![CDATA[<blockquote>
 <p>社畜老三和甜甜圈店老板1gg的故事</p>
+</blockquote>
+]]></summary>
+        <content type="html"><![CDATA[<blockquote>
+<p>社畜老三和甜甜圈店老板1gg的故事</p>
+</blockquote>
+<!-- more -->
+<blockquote>
 <p>31的一万个宇宙相遇</p>
 <p>让斗士型写手贯彻到底</p>
 <p>1gg温柔且过于温柔 对谁都温柔，但是担子沉重，长大地比别人快些</p>
@@ -774,10 +785,14 @@
         <link href="https://kurotori0125.github.io/post/31-mo-fang/">
         </link>
         <updated>2020-04-01T13:35:04.000Z</updated>
-        <content type="html"><![CDATA[<h1 id="31魔方">【31】魔方</h1>
-<blockquote>
+        <summary type="html"><![CDATA[<blockquote>
 <p>不是说你会背公式，你就会玩魔方。</p>
 </blockquote>
+]]></summary>
+        <content type="html"><![CDATA[<blockquote>
+<p>不是说你会背公式，你就会玩魔方。</p>
+</blockquote>
+<!-- more -->
 ]]></content>
     </entry>
     <entry>
@@ -786,7 +801,10 @@
         <link href="https://kurotori0125.github.io/post/gb-or-got7-ni-su-xian-chang-jin-qian/">
         </link>
         <updated>2020-03-02T13:54:35.000Z</updated>
+        <summary type="html"><![CDATA[<p>我已经五年没有下过山了。</p>
+]]></summary>
         <content type="html"><![CDATA[<p>我已经五年没有下过山了。</p>
+<!-- more -->
 <p>我出生的时候，体弱多病。我爹娘可算被折腾了好多年，这个偏方那个古法什么稀奇古怪的方子都试过了，也不见效，直到后来13岁的时候被云游至沽竭镇的师傅收上了山，治着养着竟也陆续好全乎了。</p>
 <p>我整日呆在山上也不练什么繁复功法，师傅只捡基本固元的心法叫我念，练个勉强行走江湖的防身武功，识了字就认我满书库随意读去了。我自己无聊，看的杂练得也杂，唬一般人还行，真碰上什么正路子出来的武功大家还是秉持着溜之大吉的自知之明。</p>
 <p>这年开春，师傅唤我过去，故作高深地说我虽不应再沾惹尘缘，但这次家中母亲重病到底还是应该归家一趟，说罢递给我一封信笺，说到了家打开照着抓药一试，或有转机。</p>
@@ -884,9 +902,15 @@
         <link href="https://kurotori0125.github.io/post/123-lao-zhu-he/">
         </link>
         <updated>2020-01-26T13:36:18.000Z</updated>
-        <content type="html"><![CDATA[<h1 id="123老竹盒">【123】老竹盒</h1>
-<blockquote>
+        <summary type="html"><![CDATA[<blockquote>
 <p>一个少年李梓豪暑期偶遇游魂1gg的故事（我一天天的在干啥……）</p>
+</blockquote>
+]]></summary>
+        <content type="html"><![CDATA[<blockquote>
+<p>一个少年李梓豪暑期偶遇游魂1gg的故事（我一天天的在干啥……）</p>
+</blockquote>
+<!-- more -->
+<blockquote>
 <p>夕阳红版西厢记（？？？）</p>
 <p>小李只是做个梦罢了13才是正道hhh</p>
 </blockquote>
