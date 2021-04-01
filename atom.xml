@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kurotori0125.github.io/</id>
     <title>圆形废墟 The Circular Ruins</title>
-    <updated>2021-04-01T12:56:48.993Z</updated>
+    <updated>2021-04-01T12:58:22.887Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://kurotori0125.github.io/"/>
     <link rel="self" href="https://kurotori0125.github.io/atom.xml"/>
@@ -879,7 +879,7 @@
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[【R1SE | 小洛豪】半像不像]]></title>
+        <title type="html"><![CDATA[【易安·R1SE | 小洛豪】半像不像]]></title>
         <id>https://kurotori0125.github.io/post/r1se-or-xiao-luo-hao-ban-xiang-bu-xiang/</id>
         <link href="https://kurotori0125.github.io/post/r1se-or-xiao-luo-hao-ban-xiang-bu-xiang/">
         </link>
@@ -920,17 +920,17 @@
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[【R1SE | 名副齐石】染缸]]></title>
-        <id>https://kurotori0125.github.io/post/ming-fu-qi-shi-ran-gang/</id>
-        <link href="https://kurotori0125.github.io/post/ming-fu-qi-shi-ran-gang/">
+        <title type="html"><![CDATA[【R1SE | 小洛豪】欢迎到这乐园来]]></title>
+        <id>https://kurotori0125.github.io/post/r1se-or-xiao-luo-hao-huan-ying-dao-zhe-le-yuan-lai/</id>
+        <link href="https://kurotori0125.github.io/post/r1se-or-xiao-luo-hao-huan-ying-dao-zhe-le-yuan-lai/">
         </link>
-        <updated>2019-12-25T12:50:49.000Z</updated>
-        <content type="html"><![CDATA[<h1 id="名副齐石染缸">【名副齐石】染缸</h1>
-<blockquote>
-<p>你把两个放到同一个墨水里染就行了</p>
-<p>不管他俩本来一样不一样</p>
-<p>拿出来都是一样的</p>
+        <updated>2019-12-25T12:57:14.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>小洛豪文学的精髓在于 都经历过很多 看透过很多 有不同的面貌面对生活</p>
+<p>游乐园管理员·任豪 x 玩偶熊·何洛洛</p>
 </blockquote>
+<p>要说谁是世界上最不相信游乐园梦境的人，大概就是那里的工作人员吧。</p>
+<p>迷离的彩灯，</p>
 ]]></content>
     </entry>
 </feed>
