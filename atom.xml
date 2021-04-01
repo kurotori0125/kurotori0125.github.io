@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kurotori0125.github.io/</id>
     <title>圆形废墟 The Circular Ruins</title>
-    <updated>2021-04-01T12:58:22.887Z</updated>
+    <updated>2021-04-01T13:07:42.516Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://kurotori0125.github.io/"/>
     <link rel="self" href="https://kurotori0125.github.io/atom.xml"/>
@@ -920,17 +920,14 @@
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[【R1SE | 小洛豪】欢迎到这乐园来]]></title>
-        <id>https://kurotori0125.github.io/post/r1se-or-xiao-luo-hao-huan-ying-dao-zhe-le-yuan-lai/</id>
-        <link href="https://kurotori0125.github.io/post/r1se-or-xiao-luo-hao-huan-ying-dao-zhe-le-yuan-lai/">
+        <title type="html"><![CDATA[【R1SE | 姚颜四起】旅客]]></title>
+        <id>https://kurotori0125.github.io/post/r1se-or-yao-yan-si-qi-lu-ke/</id>
+        <link href="https://kurotori0125.github.io/post/r1se-or-yao-yan-si-qi-lu-ke/">
         </link>
-        <updated>2019-12-25T12:57:14.000Z</updated>
-        <content type="html"><![CDATA[<blockquote>
-<p>小洛豪文学的精髓在于 都经历过很多 看透过很多 有不同的面貌面对生活</p>
-<p>游乐园管理员·任豪 x 玩偶熊·何洛洛</p>
-</blockquote>
-<p>要说谁是世界上最不相信游乐园梦境的人，大概就是那里的工作人员吧。</p>
-<p>迷离的彩灯，</p>
+        <updated>2019-12-27T12:59:30.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="姚颜四起旅客">【姚颜四起】旅客</h1>
+<p>张颜齐困得不行了，抱着</p>
+<p>（宾大回波士顿的火车上，一个字都没写出来）</p>
 ]]></content>
     </entry>
 </feed>
