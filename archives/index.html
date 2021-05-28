@@ -1,1515 +1,2101 @@
-<!DOCTYPE html>
-<html lang="zh-CN">
- <head>
-   <meta charset="utf-8" />
-  <title>圆形废墟 The Circular Ruins</title>
-  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
-  <link rel="stylesheet" href="https://kurotori0125.github.io//styles/main.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
-   <script src="https://cdn.staticfile.org/highlight.js/9.15.9/highlight.min.js"></script>
-    <script>hljs.initHighlightingOnLoad();</script>
- </head>
- <body>
-         <div class="sidebar animated fadeInDown">
-   <div class="logo-title">
-    <div class="title">
-     <img src="https://kurotori0125.github.io//images/avatar.png?v=1622044088169" style="width:127px;" />
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>文章归档 | 圆形废墟 The Circular Ruins</title>
+<meta name="description" content="The Circular Ruins" />
+<link rel="shortcut icon" href="https://kurotori0125.github.io//favicon.ico">
+<link rel="stylesheet" href="https://kurotori0125.github.io//styles/main.css">
 
-     <h3 title=""><a href="/">大青皮</a></h3>
-
-     <div class="description">
-      <p>The Circular Ruins</p>
-     </div>
-    </div>
-   </div>
-   <ul class="social-links">
-
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    <li><a href="https://www.instagram.com/yun_dqp/"><i class="fa fa-instagram"></i></a></li>
- 
-    
-
-    
-
-    
-
-    
-
-   </ul>
-   <div class="footer">
-    <div class="by_farbox">
-   Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
-    </div>
-    
-
-    </div>
-   </div>
-  </div>
-  <div class="main">
-          <div class="page-top animated fadeInDown">
-    <div class="nav">
-
-     <li><a  href="/">首页</a></li>
-
-     <li><a  href="/archives">归档</a></li>
-
-     <li><a  href="/tags">标签</a></li>
-
-     <li><a  href="/post/about">关于</a></li>
-
-
-    </div>
-    <div class="information">
-     <div class="back_btn">
-      <li><a class="fa fa-chevron-left" onclick="window.history.go(-1)" style="display:none;"> </a></li>
-     </div>
-    </div>
-   </div>
-   <div class="autopagerize_page_element">
-    <div class="content">
-     <div class="archive animated fadeInDown">
-      <ul class="list-with-title">
-       <div class="archive">
+<script src="https://kurotori0125.github.io//media/js/jquery.min.js"></script>
+<script src="https://kurotori0125.github.io//media/js/masonry.pkgd.min.js"></script>
+<script src="https://kurotori0125.github.io//media/js/aos.js"></script>
+<script src="https://kurotori0125.github.io//media/js/pace.min.js"></script>
+<script src="https://kurotori0125.github.io//media/js/view-image.min.js"></script>
+<script src="https://kurotori0125.github.io//media/js/jquery.magnific-popup.min.js"></script>
+<script src="https://kurotori0125.github.io//media/js/functions.js"></script>
+  </head>
+  <body>
+    <!-- start: #wrapper -->
+    <div class="wrapper">
       
+            <header id="header" class="grid-container">
+        <!-- start: .menu-wrapper -->
+        <div class="menu-mobile"> 
+          <i class="fa fa-reorder"></i>
+        </div>
+        <div class="menu-wrapper">
+          <div class="">
+            <div class="logo">
+              <a href="https://kurotori0125.github.io/"><img src="" alt=""></a>
+            </div>
+            <!-- start: .main-nav -->
+
+            <nav class="main-nav grid-container grid-parent">
+              <ul id="menu-header" class="menu gradient-effect">
+                <li class=""><a href="https://kurotori0125.github.io/" class="menu">首页</a></li>
+                
+                  <li class="" >
+                    <a href="/" class="menu">
+                      首页
+                    </a>
+                  </li>
+                
+                  <li class="" >
+                    <a href="/archives" class="menu">
+                      归档
+                    </a>
+                  </li>
+                
+                  <li class="" >
+                    <a href="/tags" class="menu">
+                      标签
+                    </a>
+                  </li>
+                
+                  <li class="" >
+                    <a href="/post/about" class="menu">
+                      关于
+                    </a>
+                  </li>
+                
+                <li class="search-menu-item hide-on-mobile hide-on-tablet"><a href="#search-lightbox" class="lightbox mfp-inline"><i class="fa fa-search-line"></i></a></li>
+              </ul>
+            </nav>
+            <a href="#search-lightbox" class="lightbox epcl-search-button mfp-inline hide-on-tablet hide-on-desktop"><i class="fa fa-search-line"></i></a>
+            <!-- end: .main-nav -->
+            <div class="clear"></div>
+            <div class="border hide-on-tablet hide-on-mobile"></div>
+          </div>    
+          <div class="clear"></div>
+        </div>
+        <!-- end: .menu-wrapper -->
+        <div class="clear"></div>
+      </header>
+      <div class="hide-on-mobile hide-on-tablet hide-on-desktop">
+        <div id="search-lightbox" class="grid-container grid-small grid-parent mfp-hide">
+          <div class="search-wrapper section">
+            <form id="gridea-search-form" data-update="1622213114617" action="/search/index.html" class="search-form" _lpchecked="1">
+              <input type="text" name="q" id="s" value="" class="search-field" placeholder="搜点啥..." aria-label="搜点啥..." required="">
+              <button type="submit" class="submit" aria-label="Submit">
+                <i class="fa fa-search-line"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <main id="home" class="main fullcover no-sidebar content">
+        <div class="grid-container module-wrapper enable-masonry aos-init aos-animate" data-aos="fade-up">
+        <div class="epcl-page-wrapper">
+          <div class="left-content grid-70 np-mobile widget_epcl_related_articles">
+                
+            <!-- start: .articles -->
+            
+
+
+<div class="main-article post">
+  <h2 class="year">共 77 篇文章</h2>
+
+    <h2 class="year">2021</h2>
+    
       
-        <div class="listing-title">
-                2021
+      <article class="item default grid-33 tablet-grid-50 np-mobile">
+        <a href="https://kurotori0125.github.io/post/qing-pi-ping-shun-ren-sheng-fang-zi-sha-zhi-nan/" class="thumb hover-effect">
+          <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('');"></span>
+        </a>
+        <div class="info gradient-effect">
+          <time datetime="2021-05-26">2 天前</time>
+          <h4 class="title usmall">
+            <a href="https://kurotori0125.github.io/post/qing-pi-ping-shun-ren-sheng-fang-zi-sha-zhi-nan/">【青皮】平顺人生防自杀指南</a>
+          </h4>
+        </div>
+      </article>
+      
+    
+      
+      <article class="item default grid-33 tablet-grid-50 np-mobile">
+        <a href="https://kurotori0125.github.io/post/shi-hua-li-20210519-yi-dan-shi-ri-bao-~shi-hu~orvol005-fan-yi/" class="thumb hover-effect">
+          <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('');"></span>
+        </a>
+        <div class="info gradient-effect">
+          <time datetime="2021-05-26">2 天前</time>
+          <h4 class="title usmall">
+            <a href="https://kurotori0125.github.io/post/shi-hua-li-20210519-yi-dan-shi-ri-bao-~shi-hu~orvol005-fan-yi/">【矢花黎】20210519-異担侍日報~侍ふ~|vol.005翻译</a>
+          </h4>
+        </div>
+      </article>
+      
+    
+      
+      <article class="item default grid-33 tablet-grid-50 np-mobile">
+        <a href="https://kurotori0125.github.io/post/shi-hua-li-20210505-yi-dan-shi-ri-bao-~shi-hu~orvol003-fan-yi/" class="thumb hover-effect">
+          <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('');"></span>
+        </a>
+        <div class="info gradient-effect">
+          <time datetime="2021-05-26">2 天前</time>
+          <h4 class="title usmall">
+            <a href="https://kurotori0125.github.io/post/shi-hua-li-20210505-yi-dan-shi-ri-bao-~shi-hu~orvol003-fan-yi/">【矢花黎】20210505-異担侍日報~侍ふ~|vol.003翻译</a>
+          </h4>
+        </div>
+      </article>
+      
+    
+      
+      <article class="item default grid-33 tablet-grid-50 np-mobile">
+        <a href="https://kurotori0125.github.io/post/shi-hua-li-20210428-yi-dan-shi-ri-bao-~shi-hu~orvol002-fan-yi/" class="thumb hover-effect">
+          <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('');"></span>
+        </a>
+        <div class="info gradient-effect">
+          <time datetime="2021-05-26">2 天前</time>
+          <h4 class="title usmall">
+            <a href="https://kurotori0125.github.io/post/shi-hua-li-20210428-yi-dan-shi-ri-bao-~shi-hu~orvol002-fan-yi/">【矢花黎】20210428-異担侍日報~侍ふ~|vol.002翻译</a>
+          </h4>
+        </div>
+      </article>
+      
+    
+      
+      <article class="item default grid-33 tablet-grid-50 np-mobile">
+        <a href="https://kurotori0125.github.io/post/vol006/" class="thumb hover-effect">
+          <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('');"></span>
+        </a>
+        <div class="info gradient-effect">
+          <time datetime="2021-05-26">2 天前</time>
+          <h4 class="title usmall">
+            <a href="https://kurotori0125.github.io/post/vol006/">【矢花黎】20210526-異担侍日報~侍ふ~|vol.006翻译</a>
+          </h4>
+        </div>
+      </article>
+      
+    
+      
+      <article class="item default grid-33 tablet-grid-50 np-mobile">
+        <a href="https://kurotori0125.github.io/post/ren-sheng-zui-hou-yi-ge-shu-jia-yao-zuo-de-shi/" class="thumb hover-effect">
+          <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('');"></span>
+        </a>
+        <div class="info gradient-effect">
+          <time datetime="2021-05-26">2 天前</time>
+          <h4 class="title usmall">
+            <a href="https://kurotori0125.github.io/post/ren-sheng-zui-hou-yi-ge-shu-jia-yao-zuo-de-shi/"> 【青皮】人生最后一个暑假要做的事</a>
+          </h4>
+        </div>
+      </article>
+      
+    
+      
+      <article class="item default grid-33 tablet-grid-50 np-mobile">
+        <a href="https://kurotori0125.github.io/post/shi-hua-li-20210512-yi-dan-shi-ri-bao-~shi-hu~orvol004-fan-yi/" class="thumb hover-effect">
+          <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('');"></span>
+        </a>
+        <div class="info gradient-effect">
+          <time datetime="2021-05-12">16 天前</time>
+          <h4 class="title usmall">
+            <a href="https://kurotori0125.github.io/post/shi-hua-li-20210512-yi-dan-shi-ri-bao-~shi-hu~orvol004-fan-yi/">【矢花黎】20210512-異担侍日報~侍ふ~|vol.004翻译</a>
+          </h4>
+        </div>
+      </article>
+      
+    
+      
+      <article class="item default grid-33 tablet-grid-50 np-mobile">
+        <a href="https://kurotori0125.github.io/post/tuo-de-shi-jie/" class="thumb hover-effect">
+          <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('');"></span>
+        </a>
+        <div class="info gradient-effect">
+          <time datetime="2021-05-05">24 天前</time>
+          <h4 class="title usmall">
+            <a href="https://kurotori0125.github.io/post/tuo-de-shi-jie/">【青皮原创】牠的世界 </a>
+          </h4>
+        </div>
+      </article>
+      
+    
+      
+      <article class="item default grid-33 tablet-grid-50 np-mobile">
+        <a href="https://kurotori0125.github.io/post/guang-shu-or-bu-zhong-yue-kan-shou-du-quan-fan-yi/" class="thumb hover-effect">
+          <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('');"></span>
+        </a>
+        <div class="info gradient-effect">
+          <time datetime="2021-04-24">1 个月前</time>
+          <h4 class="title usmall">
+            <a href="https://kurotori0125.github.io/post/guang-shu-or-bu-zhong-yue-kan-shou-du-quan-fan-yi/">【光树 | 不仲】月刊首都圈翻译</a>
+          </h4>
+        </div>
+      </article>
+      
+    
+      
+      <article class="item default grid-33 tablet-grid-50 np-mobile">
+        <a href="https://kurotori0125.github.io/post/shi-hua-li-20210422-yi-duan-shi-ri-bao-~shi-bu~-or-vol001-fan-yi/" class="thumb hover-effect">
+          <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('');"></span>
+        </a>
+        <div class="info gradient-effect">
+          <time datetime="2021-04-22">1 个月前</time>
+          <h4 class="title usmall">
+            <a href="https://kurotori0125.github.io/post/shi-hua-li-20210422-yi-duan-shi-ri-bao-~shi-bu~-or-vol001-fan-yi/">【矢花黎】20210422-異端侍日報～侍ぶ～ | vol.001 翻译</a>
+          </h4>
+        </div>
+      </article>
+      
+    
+      
+      <article class="item default grid-33 tablet-grid-50 np-mobile">
+        <a href="https://kurotori0125.github.io/post/fan-yi-mu-lu-or-yi-duan-shi-ri-bao-~shi-bu~/" class="thumb hover-effect">
+          <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('');"></span>
+        </a>
+        <div class="info gradient-effect">
+          <time datetime="2021-04-22">1 个月前</time>
+          <h4 class="title usmall">
+            <a href="https://kurotori0125.github.io/post/fan-yi-mu-lu-or-yi-duan-shi-ri-bao-~shi-bu~/">【7men侍】侍ぶ+杂志翻译目录</a>
+          </h4>
+        </div>
+      </article>
+      
+    
+      
+      <article class="item default grid-33 tablet-grid-50 np-mobile">
+        <a href="https://kurotori0125.github.io/post/lofter-gui-dang-di-shi-san-zhi-hei-niao/" class="thumb hover-effect">
+          <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('');"></span>
+        </a>
+        <div class="info gradient-effect">
+          <time datetime="2021-04-02">2 个月前</time>
+          <h4 class="title usmall">
+            <a href="https://kurotori0125.github.io/post/lofter-gui-dang-di-shi-san-zhi-hei-niao/">【lofter归档】第十三只黑鸟</a>
+          </h4>
+        </div>
+      </article>
+      
+    
+      
+      <article class="item default grid-33 tablet-grid-50 np-mobile">
+        <a href="https://kurotori0125.github.io/post/mu-lu-kcp-da-quan/" class="thumb hover-effect">
+          <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('');"></span>
+        </a>
+        <div class="info gradient-effect">
+          <time datetime="2021-03-29">2 个月前</time>
+          <h4 class="title usmall">
+            <a href="https://kurotori0125.github.io/post/mu-lu-kcp-da-quan/">【目录】吴青皮女士磕CP与产出大全</a>
+          </h4>
+        </div>
+      </article>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    <div class="clear"></div>
+
+    <h2 class="year">2020</h2>
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <article class="item default grid-33 tablet-grid-50 np-mobile">
+        <a href="https://kurotori0125.github.io/post/r1se-or-rang-ye-santa-tracker/" class="thumb hover-effect">
+          <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('');"></span>
+        </a>
+        <div class="info gradient-effect">
+          <time datetime="2020-12-25">5 个月前</time>
+          <h4 class="title usmall">
+            <a href="https://kurotori0125.github.io/post/r1se-or-rang-ye-santa-tracker/">【R1SE | 让也】Santa Tracker</a>
+          </h4>
+        </div>
+      </article>
+      
+    
+      
+      <article class="item default grid-33 tablet-grid-50 np-mobile">
+        <a href="https://kurotori0125.github.io/post/gao-guang-da-xian-i/" class="thumb hover-effect">
+          <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('');"></span>
+        </a>
+        <div class="info gradient-effect">
+          <time datetime="2020-06-17">1 年前</time>
+          <h4 class="title usmall">
+            <a href="https://kurotori0125.github.io/post/gao-guang-da-xian-i/">【7men侍 | 光树】大嫌い（未完）</a>
+          </h4>
+        </div>
+      </article>
+      
+    
+      
+      <article class="item default grid-33 tablet-grid-50 np-mobile">
+        <a href="https://kurotori0125.github.io/post/7men-shi-or-shi-jin-pu-tong-xia-ri/" class="thumb hover-effect">
+          <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('');"></span>
+        </a>
+        <div class="info gradient-effect">
+          <time datetime="2020-05-19">1 年前</time>
+          <h4 class="title usmall">
+            <a href="https://kurotori0125.github.io/post/7men-shi-or-shi-jin-pu-tong-xia-ri/">【7men侍 | 矢今】普通夏日</a>
+          </h4>
+        </div>
+      </article>
+      
+    
+      
+      <article class="item default grid-33 tablet-grid-50 np-mobile">
+        <a href="https://kurotori0125.github.io/post/31-tian-tian-quan-mei-mai-wan/" class="thumb hover-effect">
+          <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('');"></span>
+        </a>
+        <div class="info gradient-effect">
+          <time datetime="2020-04-01">1 年前</time>
+          <h4 class="title usmall">
+            <a href="https://kurotori0125.github.io/post/31-tian-tian-quan-mei-mai-wan/">【Boystory | 31】甜甜圈没卖完</a>
+          </h4>
+        </div>
+      </article>
+      
+    
+      
+      <article class="item default grid-33 tablet-grid-50 np-mobile">
+        <a href="https://kurotori0125.github.io/post/31-mo-fang/" class="thumb hover-effect">
+          <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('');"></span>
+        </a>
+        <div class="info gradient-effect">
+          <time datetime="2020-04-01">1 年前</time>
+          <h4 class="title usmall">
+            <a href="https://kurotori0125.github.io/post/31-mo-fang/">【Boystory | 31】魔方</a>
+          </h4>
+        </div>
+      </article>
+      
+    
+      
+      <article class="item default grid-33 tablet-grid-50 np-mobile">
+        <a href="https://kurotori0125.github.io/post/123-lao-zhu-he/" class="thumb hover-effect">
+          <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('');"></span>
+        </a>
+        <div class="info gradient-effect">
+          <time datetime="2020-01-26">1 年前</time>
+          <h4 class="title usmall">
+            <a href="https://kurotori0125.github.io/post/123-lao-zhu-he/">【Boystory | 123】老竹盒</a>
+          </h4>
+        </div>
+      </article>
+      
+    
+      
+      <article class="item default grid-33 tablet-grid-50 np-mobile">
+        <a href="https://kurotori0125.github.io/post/r1se-quan-yuan-ping-xi-zhen-xiao-luo-hao-pian/" class="thumb hover-effect">
+          <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('');"></span>
+        </a>
+        <div class="info gradient-effect">
+          <time datetime="2020-01-11">1 年前</time>
+          <h4 class="title usmall">
+            <a href="https://kurotori0125.github.io/post/r1se-quan-yuan-ping-xi-zhen-xiao-luo-hao-pian/">【R1SE | 全员平溪镇】小洛豪篇</a>
+          </h4>
+        </div>
+      </article>
+      
+    
+      
+      <article class="item default grid-33 tablet-grid-50 np-mobile">
+        <a href="https://kurotori0125.github.io/post/r1se-or-xiao-luo-hao-ban-xiang-bu-xiang/" class="thumb hover-effect">
+          <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('');"></span>
+        </a>
+        <div class="info gradient-effect">
+          <time datetime="2020-01-02">1 年前</time>
+          <h4 class="title usmall">
+            <a href="https://kurotori0125.github.io/post/r1se-or-xiao-luo-hao-ban-xiang-bu-xiang/">【易安·R1SE | 小洛豪】半像不像</a>
+          </h4>
+        </div>
+      </article>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    <div class="clear"></div>
+
+    <h2 class="year">2019</h2>
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <article class="item default grid-33 tablet-grid-50 np-mobile">
+        <a href="https://kurotori0125.github.io/post/r1se-or-yao-yan-si-qi-lu-ke/" class="thumb hover-effect">
+          <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('');"></span>
+        </a>
+        <div class="info gradient-effect">
+          <time datetime="2019-12-27">1 年前</time>
+          <h4 class="title usmall">
+            <a href="https://kurotori0125.github.io/post/r1se-or-yao-yan-si-qi-lu-ke/">【R1SE | 姚颜四起】旅客</a>
+          </h4>
+        </div>
+      </article>
+      
+    
+      
+      <article class="item default grid-33 tablet-grid-50 np-mobile">
+        <a href="https://kurotori0125.github.io/post/r1se-or-xiao-luo-hao-she-yao/" class="thumb hover-effect">
+          <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('');"></span>
+        </a>
+        <div class="info gradient-effect">
+          <time datetime="2019-12-27">1 年前</time>
+          <h4 class="title usmall">
+            <a href="https://kurotori0125.github.io/post/r1se-or-xiao-luo-hao-she-yao/">【R1SE | 小洛豪】蛇妖</a>
+          </h4>
+        </div>
+      </article>
+      
+    
+      
+      <article class="item default grid-33 tablet-grid-50 np-mobile">
+        <a href="https://kurotori0125.github.io/post/r1se-or-xiao-luo-hao-huan-ying-dao-zhe-le-yuan-lai/" class="thumb hover-effect">
+          <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('');"></span>
+        </a>
+        <div class="info gradient-effect">
+          <time datetime="2019-12-25">1 年前</time>
+          <h4 class="title usmall">
+            <a href="https://kurotori0125.github.io/post/r1se-or-xiao-luo-hao-huan-ying-dao-zhe-le-yuan-lai/">【R1SE | 小洛豪】欢迎到这乐园来</a>
+          </h4>
+        </div>
+      </article>
+      
+    
+      
+      <article class="item default grid-33 tablet-grid-50 np-mobile">
+        <a href="https://kurotori0125.github.io/post/ming-fu-qi-shi-ran-gang/" class="thumb hover-effect">
+          <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('');"></span>
+        </a>
+        <div class="info gradient-effect">
+          <time datetime="2019-12-25">1 年前</time>
+          <h4 class="title usmall">
+            <a href="https://kurotori0125.github.io/post/ming-fu-qi-shi-ran-gang/">【R1SE | 名副齐石】染缸</a>
+          </h4>
+        </div>
+      </article>
+      
+    
+      
+      <article class="item default grid-33 tablet-grid-50 np-mobile">
+        <a href="https://kurotori0125.github.io/post/r1se-or-chen-nan-jiu-shi-hai-jiao-jin-tou-wei-wan/" class="thumb hover-effect">
+          <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('');"></span>
+        </a>
+        <div class="info gradient-effect">
+          <time datetime="2019-12-25">1 年前</time>
+          <h4 class="title usmall">
+            <a href="https://kurotori0125.github.io/post/r1se-or-chen-nan-jiu-shi-hai-jiao-jin-tou-wei-wan/">【R1SE | 琛南旧事】海角尽头</a>
+          </h4>
+        </div>
+      </article>
+      
+    
+      
+      <article class="item default grid-33 tablet-grid-50 np-mobile">
+        <a href="https://kurotori0125.github.io/post/yi-an-r1se-or-qi-hao-luo-feng-cang/" class="thumb hover-effect">
+          <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('');"></span>
+        </a>
+        <div class="info gradient-effect">
+          <time datetime="2019-12-24">1 年前</time>
+          <h4 class="title usmall">
+            <a href="https://kurotori0125.github.io/post/yi-an-r1se-or-qi-hao-luo-feng-cang/">【R1SE | 齐豪洛】封藏</a>
+          </h4>
+        </div>
+      </article>
+      
+    
+      
+      <article class="item default grid-33 tablet-grid-50 np-mobile">
+        <a href="https://kurotori0125.github.io/post/31-luo-tuo-ta-diao-hui-cha-bei-li/" class="thumb hover-effect">
+          <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('');"></span>
+        </a>
+        <div class="info gradient-effect">
+          <time datetime="2019-12-12">1 年前</time>
+          <h4 class="title usmall">
+            <a href="https://kurotori0125.github.io/post/31-luo-tuo-ta-diao-hui-cha-bei-li/">【Boystory | 31】骆驼它掉回茶杯里</a>
+          </h4>
+        </div>
+      </article>
+      
+    
+      
+      <article class="item default grid-33 tablet-grid-50 np-mobile">
+        <a href="https://kurotori0125.github.io/post/12-zhe-er-hu-shi-ni-sao-er-de/" class="thumb hover-effect">
+          <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('');"></span>
+        </a>
+        <div class="info gradient-effect">
+          <time datetime="2019-12-12">1 年前</time>
+          <h4 class="title usmall">
+            <a href="https://kurotori0125.github.io/post/12-zhe-er-hu-shi-ni-sao-er-de/">【Boystory | 12】这二胡是你嫂儿的</a>
+          </h4>
+        </div>
+      </article>
+      
+    
+      
+      <article class="item default grid-33 tablet-grid-50 np-mobile">
+        <a href="https://kurotori0125.github.io/post/13-chuan-yue-zhe-tou-lai-de-ai-qing/" class="thumb hover-effect">
+          <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('');"></span>
+        </a>
+        <div class="info gradient-effect">
+          <time datetime="2019-12-07">1 年前</time>
+          <h4 class="title usmall">
+            <a href="https://kurotori0125.github.io/post/13-chuan-yue-zhe-tou-lai-de-ai-qing/">【Boystory | 13】穿越者偷来的爱情</a>
+          </h4>
+        </div>
+      </article>
+      
+    
+      
+      <article class="item default grid-33 tablet-grid-50 np-mobile">
+        <a href="https://kurotori0125.github.io/post/31-he-xin-long-bu-xiang-shuo-hua/" class="thumb hover-effect">
+          <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('');"></span>
+        </a>
+        <div class="info gradient-effect">
+          <time datetime="2019-12-02">1 年前</time>
+          <h4 class="title usmall">
+            <a href="https://kurotori0125.github.io/post/31-he-xin-long-bu-xiang-shuo-hua/">【Boystory | 31】贺鑫隆不想说话</a>
+          </h4>
+        </div>
+      </article>
+      
+    
+      
+      <article class="item default grid-33 tablet-grid-50 np-mobile">
+        <a href="https://kurotori0125.github.io/post/31-jia-han-yu-zhe-ci-mei-you-shuo-shi-hua/" class="thumb hover-effect">
+          <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('');"></span>
+        </a>
+        <div class="info gradient-effect">
+          <time datetime="2019-11-30">1 年前</time>
+          <h4 class="title usmall">
+            <a href="https://kurotori0125.github.io/post/31-jia-han-yu-zhe-ci-mei-you-shuo-shi-hua/">【Boystory | 31】贾涵予这次没有说实话</a>
+          </h4>
+        </div>
+      </article>
+      
+    
+      
+      <article class="item default grid-33 tablet-grid-50 np-mobile">
+        <a href="https://kurotori0125.github.io/post/all1-huang-ye/" class="thumb hover-effect">
+          <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('');"></span>
+        </a>
+        <div class="info gradient-effect">
+          <time datetime="2019-11-26">2 年前</time>
+          <h4 class="title usmall">
+            <a href="https://kurotori0125.github.io/post/all1-huang-ye/">【Boystory | all1】荒野</a>
+          </h4>
+        </div>
+      </article>
+      
+    
+      
+      <article class="item default grid-33 tablet-grid-50 np-mobile">
+        <a href="https://kurotori0125.github.io/post/13-he-xu-li-ru-shi-shuo/" class="thumb hover-effect">
+          <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('');"></span>
+        </a>
+        <div class="info gradient-effect">
+          <time datetime="2019-11-08">2 年前</time>
+          <h4 class="title usmall">
+            <a href="https://kurotori0125.github.io/post/13-he-xu-li-ru-shi-shuo/">【Boystory | 13】赫胥黎如是说</a>
+          </h4>
+        </div>
+      </article>
+      
+    
+      
+      <article class="item default grid-33 tablet-grid-50 np-mobile">
+        <a href="https://kurotori0125.github.io/post/13-nan-gang-ai-qing-gu-shi/" class="thumb hover-effect">
+          <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('');"></span>
+        </a>
+        <div class="info gradient-effect">
+          <time datetime="2019-11-02">2 年前</time>
+          <h4 class="title usmall">
+            <a href="https://kurotori0125.github.io/post/13-nan-gang-ai-qing-gu-shi/">【Boystory | 13】南港爱情故事</a>
+          </h4>
+        </div>
+      </article>
+      
+    
+      
+      <article class="item default grid-33 tablet-grid-50 np-mobile">
+        <a href="https://kurotori0125.github.io/post/1all1-jiu-hen-yuan-de-ri-ri-ye-ye/" class="thumb hover-effect">
+          <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('');"></span>
+        </a>
+        <div class="info gradient-effect">
+          <time datetime="2019-11-01">2 年前</time>
+          <h4 class="title usmall">
+            <a href="https://kurotori0125.github.io/post/1all1-jiu-hen-yuan-de-ri-ri-ye-ye/">【Boystory | 1all1】就很远的日日夜夜</a>
+          </h4>
+        </div>
+      </article>
+      
+    
+      
+      <article class="item default grid-33 tablet-grid-50 np-mobile">
+        <a href="https://kurotori0125.github.io/post/boystory-nan-gao-yi-er-san-si-wu-liu-md/" class="thumb hover-effect">
+          <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('');"></span>
+        </a>
+        <div class="info gradient-effect">
+          <time datetime="2019-10-08">2 年前</time>
+          <h4 class="title usmall">
+            <a href="https://kurotori0125.github.io/post/boystory-nan-gao-yi-er-san-si-wu-liu-md/">【Boystory | 全员】南皋一二三四五六</a>
+          </h4>
+        </div>
+      </article>
+      
+    
+      
+      <article class="item default grid-33 tablet-grid-50 np-mobile">
+        <a href="https://kurotori0125.github.io/post/got7-or-bi-qian-wu-yuan-ze-dong-wu/" class="thumb hover-effect">
+          <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('');"></span>
+        </a>
+        <div class="info gradient-effect">
+          <time datetime="2019-09-10">2 年前</time>
+          <h4 class="title usmall">
+            <a href="https://kurotori0125.github.io/post/got7-or-bi-qian-wu-yuan-ze-dong-wu/">【GOT7 | 笔谦】无原则动物</a>
+          </h4>
+        </div>
+      </article>
+      
+    
+      
+      <article class="item default grid-33 tablet-grid-50 np-mobile">
+        <a href="https://kurotori0125.github.io/post/got7-xiao-zhen-da-gang/" class="thumb hover-effect">
+          <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('');"></span>
+        </a>
+        <div class="info gradient-effect">
+          <time datetime="2019-05-15">2 年前</time>
+          <h4 class="title usmall">
+            <a href="https://kurotori0125.github.io/post/got7-xiao-zhen-da-gang/">【GOT7】小镇（大纲）</a>
+          </h4>
+        </div>
+      </article>
+      
+    
+      
+      <article class="item default grid-33 tablet-grid-50 np-mobile">
+        <a href="https://kurotori0125.github.io/post/sui-bi-lesslessspring-in-desperately-shygreatergreater/" class="thumb hover-effect">
+          <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('');"></span>
+        </a>
+        <div class="info gradient-effect">
+          <time datetime="2019-04-21">2 年前</time>
+          <h4 class="title usmall">
+            <a href="https://kurotori0125.github.io/post/sui-bi-lesslessspring-in-desperately-shygreatergreater/">【随笔】《Spring  in desperately shy》</a>
+          </h4>
+        </div>
+      </article>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    <div class="clear"></div>
+
+    <h2 class="year">2018</h2>
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <article class="item default grid-33 tablet-grid-50 np-mobile">
+        <a href="https://kurotori0125.github.io/post/yi-an-chi-fu-sha/" class="thumb hover-effect">
+          <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('');"></span>
+        </a>
+        <div class="info gradient-effect">
+          <time datetime="2018-12-18">2 年前</time>
+          <h4 class="title usmall">
+            <a href="https://kurotori0125.github.io/post/yi-an-chi-fu-sha/">【易安 | 三角】池缚鲨</a>
+          </h4>
+        </div>
+      </article>
+      
+    
+      
+      <article class="item default grid-33 tablet-grid-50 np-mobile">
+        <a href="https://kurotori0125.github.io/post/sheng-he-yuan-bu-leng-de-yi-tian-he-xie/" class="thumb hover-effect">
+          <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('');"></span>
+        </a>
+        <div class="info gradient-effect">
+          <time datetime="2018-11-15">3 年前</time>
+          <h4 class="title usmall">
+            <a href="https://kurotori0125.github.io/post/sheng-he-yuan-bu-leng-de-yi-tian-he-xie/">【青皮 | 生贺】袁不冷的一天（合写）</a>
+          </h4>
+        </div>
+      </article>
+      
+    
+      
+      <article class="item default grid-33 tablet-grid-50 np-mobile">
+        <a href="https://kurotori0125.github.io/post/yi-an-or-mo-hang-luo-bu-yu-keng/" class="thumb hover-effect">
+          <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('');"></span>
+        </a>
+        <div class="info gradient-effect">
+          <time datetime="2018-10-18">3 年前</time>
+          <h4 class="title usmall">
+            <a href="https://kurotori0125.github.io/post/yi-an-or-mo-hang-luo-bu-yu-keng/">【易安 | 墨航】萝卜与坑</a>
+          </h4>
+        </div>
+      </article>
+      
+    
+      
+      <article class="item default grid-33 tablet-grid-50 np-mobile">
+        <a href="https://kurotori0125.github.io/post/yi-an-or-hang-sheng-he-ye-shen-liao/" class="thumb hover-effect">
+          <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('');"></span>
+        </a>
+        <div class="info gradient-effect">
+          <time datetime="2018-10-16">3 年前</time>
+          <h4 class="title usmall">
+            <a href="https://kurotori0125.github.io/post/yi-an-or-hang-sheng-he-ye-shen-liao/">【易安 | 航生贺】夜深了</a>
+          </h4>
+        </div>
+      </article>
+      
+    
+      
+      <article class="item default grid-33 tablet-grid-50 np-mobile">
+        <a href="https://kurotori0125.github.io/post/yi-an-or-wu-ren-sha-diao-xiao-ju-chang/" class="thumb hover-effect">
+          <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('');"></span>
+        </a>
+        <div class="info gradient-effect">
+          <time datetime="2018-10-01">3 年前</time>
+          <h4 class="title usmall">
+            <a href="https://kurotori0125.github.io/post/yi-an-or-wu-ren-sha-diao-xiao-ju-chang/">【易安 | 五仁】沙雕小剧场</a>
+          </h4>
+        </div>
+      </article>
+      
+    
+      
+      <article class="item default grid-33 tablet-grid-50 np-mobile">
+        <a href="https://kurotori0125.github.io/post/yi-an-or-hang-mo-hang-gan-mou-ri/" class="thumb hover-effect">
+          <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('');"></span>
+        </a>
+        <div class="info gradient-effect">
+          <time datetime="2018-09-20">3 年前</time>
+          <h4 class="title usmall">
+            <a href="https://kurotori0125.github.io/post/yi-an-or-hang-mo-hang-gan-mou-ri/">【易安 | 航墨航】感冒日</a>
+          </h4>
+        </div>
+      </article>
+      
+    
+      
+      <article class="item default grid-33 tablet-grid-50 np-mobile">
+        <a href="https://kurotori0125.github.io/post/qian-hong-yong-yuan-qing-xing-de-long-zhua-huai/" class="thumb hover-effect">
+          <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('');"></span>
+        </a>
+        <div class="info gradient-effect">
+          <time datetime="2018-09-20">3 年前</time>
+          <h4 class="title usmall">
+            <a href="https://kurotori0125.github.io/post/qian-hong-yong-yuan-qing-xing-de-long-zhua-huai/">【千宏】永远清醒的龙爪槐</a>
+          </h4>
+        </div>
+      </article>
+      
+    
+      
+      <article class="item default grid-33 tablet-grid-50 np-mobile">
+        <a href="https://kurotori0125.github.io/post/yi-an-or-luo-yi-xia-yi-miao/" class="thumb hover-effect">
+          <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('');"></span>
+        </a>
+        <div class="info gradient-effect">
+          <time datetime="2018-09-10">3 年前</time>
+          <h4 class="title usmall">
+            <a href="https://kurotori0125.github.io/post/yi-an-or-luo-yi-xia-yi-miao/">【易安 | 洛忆】下一秒</a>
+          </h4>
+        </div>
+      </article>
+      
+    
+      
+      <article class="item default grid-33 tablet-grid-50 np-mobile">
+        <a href="https://kurotori0125.github.io/post/yi-an-or-qun-xiang-nan-chuan-ji-shi/" class="thumb hover-effect">
+          <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('');"></span>
+        </a>
+        <div class="info gradient-effect">
+          <time datetime="2018-08-31">3 年前</time>
+          <h4 class="title usmall">
+            <a href="https://kurotori0125.github.io/post/yi-an-or-qun-xiang-nan-chuan-ji-shi/">【易安 | 群像】南川记事</a>
+          </h4>
+        </div>
+      </article>
+      
+    
+      
+      <article class="item default grid-33 tablet-grid-50 np-mobile">
+        <a href="https://kurotori0125.github.io/post/yi-an-or-hang-mo-lu-mang-de-shuang-yin-hao/" class="thumb hover-effect">
+          <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('');"></span>
+        </a>
+        <div class="info gradient-effect">
+          <time datetime="2018-08-20">3 年前</time>
+          <h4 class="title usmall">
+            <a href="https://kurotori0125.github.io/post/yi-an-or-hang-mo-lu-mang-de-shuang-yin-hao/">【易安 | 航墨】鲁莽的双引号</a>
+          </h4>
+        </div>
+      </article>
+      
+    
+      
+      <article class="item default grid-33 tablet-grid-50 np-mobile">
+        <a href="https://kurotori0125.github.io/post/er-zi-fang-shi-er-xiao-ji-da-gang/" class="thumb hover-effect">
+          <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('');"></span>
+        </a>
+        <div class="info gradient-effect">
+          <time datetime="2018-07-22">3 年前</time>
+          <h4 class="title usmall">
+            <a href="https://kurotori0125.github.io/post/er-zi-fang-shi-er-xiao-ji-da-gang/">【二字】方十二小记</a>
+          </h4>
+        </div>
+      </article>
+      
+    
+      
+      <article class="item default grid-33 tablet-grid-50 np-mobile">
+        <a href="https://kurotori0125.github.io/post/su-an-zhi-zhe-wu-wei/" class="thumb hover-effect">
+          <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('');"></span>
+        </a>
+        <div class="info gradient-effect">
+          <time datetime="2018-06-09">3 年前</time>
+          <h4 class="title usmall">
+            <a href="https://kurotori0125.github.io/post/su-an-zhi-zhe-wu-wei/">【甦岸】知者无畏（弃文）</a>
+          </h4>
+        </div>
+      </article>
+      
+    
+      
+      <article class="item default grid-33 tablet-grid-50 np-mobile">
+        <a href="https://kurotori0125.github.io/post/shan-hua-hua-tu-zheng/" class="thumb hover-effect">
+          <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('');"></span>
+        </a>
+        <div class="info gradient-effect">
+          <time datetime="2018-06-09">3 年前</time>
+          <h4 class="title usmall">
+            <a href="https://kurotori0125.github.io/post/shan-hua-hua-tu-zheng/">【山花】花吐症</a>
+          </h4>
+        </div>
+      </article>
+      
+    
+      
+      <article class="item default grid-33 tablet-grid-50 np-mobile">
+        <a href="https://kurotori0125.github.io/post/she-ding-ba-fen-ren/" class="thumb hover-effect">
+          <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('');"></span>
+        </a>
+        <div class="info gradient-effect">
+          <time datetime="2018-06-09">3 年前</time>
+          <h4 class="title usmall">
+            <a href="https://kurotori0125.github.io/post/she-ding-ba-fen-ren/">【设定】八分人</a>
+          </h4>
+        </div>
+      </article>
+      
+    
+      
+      <article class="item default grid-33 tablet-grid-50 np-mobile">
+        <a href="https://kurotori0125.github.io/post/lu-cha-shi-jie/" class="thumb hover-effect">
+          <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('');"></span>
+        </a>
+        <div class="info gradient-effect">
+          <time datetime="2018-06-09">3 年前</time>
+          <h4 class="title usmall">
+            <a href="https://kurotori0125.github.io/post/lu-cha-shi-jie/">【撸叉】师姐</a>
+          </h4>
+        </div>
+      </article>
+      
+    
+      
+      <article class="item default grid-33 tablet-grid-50 np-mobile">
+        <a href="https://kurotori0125.github.io/post/wu-yu-lun-bi-xiao-sang-ri-ji-wei-wan/" class="thumb hover-effect">
+          <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('');"></span>
+        </a>
+        <div class="info gradient-effect">
+          <time datetime="2018-06-09">3 年前</time>
+          <h4 class="title usmall">
+            <a href="https://kurotori0125.github.io/post/wu-yu-lun-bi-xiao-sang-ri-ji-wei-wan/">【吴语伦比】小桑日记</a>
+          </h4>
+        </div>
+      </article>
+      
+    
+      
+      <article class="item default grid-33 tablet-grid-50 np-mobile">
+        <a href="https://kurotori0125.github.io/post/guan-zhou-feng-xun-chang-tu-che/" class="thumb hover-effect">
+          <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('');"></span>
+        </a>
+        <div class="info gradient-effect">
+          <time datetime="2018-06-09">3 年前</time>
+          <h4 class="title usmall">
+            <a href="https://kurotori0125.github.io/post/guan-zhou-feng-xun-chang-tu-che/">【关周峰巡】长途车</a>
+          </h4>
+        </div>
+      </article>
+      
+    
+      
+      <article class="item default grid-33 tablet-grid-50 np-mobile">
+        <a href="https://kurotori0125.github.io/post/guan-zhou-xun-hua-du-bai-tai-ci/" class="thumb hover-effect">
+          <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('');"></span>
+        </a>
+        <div class="info gradient-effect">
+          <time datetime="2018-06-09">3 年前</time>
+          <h4 class="title usmall">
+            <a href="https://kurotori0125.github.io/post/guan-zhou-xun-hua-du-bai-tai-ci/">【关周】巡花独白台词</a>
+          </h4>
+        </div>
+      </article>
+      
+    
+      
+      <article class="item default grid-33 tablet-grid-50 np-mobile">
+        <a href="https://kurotori0125.github.io/post/guan-zhou-ju-chang/" class="thumb hover-effect">
+          <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('');"></span>
+        </a>
+        <div class="info gradient-effect">
+          <time datetime="2018-06-09">3 年前</time>
+          <h4 class="title usmall">
+            <a href="https://kurotori0125.github.io/post/guan-zhou-ju-chang/">【关周】剧场</a>
+          </h4>
+        </div>
+      </article>
+      
+    
+      
+      <article class="item default grid-33 tablet-grid-50 np-mobile">
+        <a href="https://kurotori0125.github.io/post/guan-zhou-leng-bu-leng/" class="thumb hover-effect">
+          <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('');"></span>
+        </a>
+        <div class="info gradient-effect">
+          <time datetime="2018-06-09">3 年前</time>
+          <h4 class="title usmall">
+            <a href="https://kurotori0125.github.io/post/guan-zhou-leng-bu-leng/">【关周】冷不冷</a>
+          </h4>
+        </div>
+      </article>
+      
+    
+      
+      <article class="item default grid-33 tablet-grid-50 np-mobile">
+        <a href="https://kurotori0125.github.io/post/guan-zhou-cheng-xian-jie-er-san-shi-md/" class="thumb hover-effect">
+          <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('');"></span>
+        </a>
+        <div class="info gradient-effect">
+          <time datetime="2018-06-09">3 年前</time>
+          <h4 class="title usmall">
+            <a href="https://kurotori0125.github.io/post/guan-zhou-cheng-xian-jie-er-san-shi-md/">【关周】成贤街二三事</a>
+          </h4>
+        </div>
+      </article>
+      
+    
+      
+      <article class="item default grid-33 tablet-grid-50 np-mobile">
+        <a href="https://kurotori0125.github.io/post/guanzhou-cold-or-not/" class="thumb hover-effect">
+          <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('');"></span>
+        </a>
+        <div class="info gradient-effect">
+          <time datetime="2018-06-09">3 年前</time>
+          <h4 class="title usmall">
+            <a href="https://kurotori0125.github.io/post/guanzhou-cold-or-not/">【GuanZhou】Cold or Not</a>
+          </h4>
+        </div>
+      </article>
+      
+    
+      
+      <article class="item default grid-33 tablet-grid-50 np-mobile">
+        <a href="https://kurotori0125.github.io/post/qing-pi-or-fan-yi-jia-ting-jiao-shi-ben-jian-yang-ping/" class="thumb hover-effect">
+          <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('');"></span>
+        </a>
+        <div class="info gradient-effect">
+          <time datetime="2018-06-09">3 年前</time>
+          <h4 class="title usmall">
+            <a href="https://kurotori0125.github.io/post/qing-pi-or-fan-yi-jia-ting-jiao-shi-ben-jian-yang-ping/">【青皮 | 翻译】家庭教师-本间洋平</a>
+          </h4>
+        </div>
+      </article>
+      
+    
+      
+      <article class="item default grid-33 tablet-grid-50 np-mobile">
+        <a href="https://kurotori0125.github.io/post/shan-hua-ni-cong-qu-chu-lai-md/" class="thumb hover-effect">
+          <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('');"></span>
+        </a>
+        <div class="info gradient-effect">
+          <time datetime="2018-03-02">3 年前</time>
+          <h4 class="title usmall">
+            <a href="https://kurotori0125.github.io/post/shan-hua-ni-cong-qu-chu-lai-md/">【山花】你从去处来</a>
+          </h4>
+        </div>
+      </article>
+      
+    
+      
+      <article class="item default grid-33 tablet-grid-50 np-mobile">
+        <a href="https://kurotori0125.github.io/post/guan-zhou-feng-xun-shi-yi-ci-ca-jian-er-guo/" class="thumb hover-effect">
+          <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('');"></span>
+        </a>
+        <div class="info gradient-effect">
+          <time datetime="2018-02-07">3 年前</time>
+          <h4 class="title usmall">
+            <a href="https://kurotori0125.github.io/post/guan-zhou-feng-xun-shi-yi-ci-ca-jian-er-guo/">【关周/峰巡】十一次擦肩而过</a>
+          </h4>
+        </div>
+      </article>
+      
+    
+      
+      <article class="item default grid-33 tablet-grid-50 np-mobile">
+        <a href="https://kurotori0125.github.io/post/guan-zhou-shi-jian-xian/" class="thumb hover-effect">
+          <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('');"></span>
+        </a>
+        <div class="info gradient-effect">
+          <time datetime="2018-02-05">3 年前</time>
+          <h4 class="title usmall">
+            <a href="https://kurotori0125.github.io/post/guan-zhou-shi-jian-xian/">【关周】时间线</a>
+          </h4>
+        </div>
+      </article>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    <div class="clear"></div>
+
+    <h2 class="year">2017</h2>
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <article class="item default grid-33 tablet-grid-50 np-mobile">
+        <a href="https://kurotori0125.github.io/post/qing-pi-2017-tong-ren-xie-shou-nian-zhong-wen-juan/" class="thumb hover-effect">
+          <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('');"></span>
+        </a>
+        <div class="info gradient-effect">
+          <time datetime="2017-12-31">3 年前</time>
+          <h4 class="title usmall">
+            <a href="https://kurotori0125.github.io/post/qing-pi-2017-tong-ren-xie-shou-nian-zhong-wen-juan/">【青皮】2017同人写手年终问卷</a>
+          </h4>
+        </div>
+      </article>
+      
+    
+      
+      <article class="item default grid-33 tablet-grid-50 np-mobile">
+        <a href="https://kurotori0125.github.io/post/guan-zhou-sheng-dan-hou-yi-tian/" class="thumb hover-effect">
+          <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('');"></span>
+        </a>
+        <div class="info gradient-effect">
+          <time datetime="2017-12-26">3 年前</time>
+          <h4 class="title usmall">
+            <a href="https://kurotori0125.github.io/post/guan-zhou-sheng-dan-hou-yi-tian/">【关周】圣诞后一天</a>
+          </h4>
+        </div>
+      </article>
+      
+    
+      
+      <article class="item default grid-33 tablet-grid-50 np-mobile">
+        <a href="https://kurotori0125.github.io/post/lin-jing-yi-meng-hua-xu/" class="thumb hover-effect">
+          <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('');"></span>
+        </a>
+        <div class="info gradient-effect">
+          <time datetime="2017-07-01">4 年前</time>
+          <h4 class="title usmall">
+            <a href="https://kurotori0125.github.io/post/lin-jing-yi-meng-hua-xu/">【蔺靖】一梦华胥</a>
+          </h4>
+        </div>
+      </article>
+      
+    
+      
+      <article class="item default grid-33 tablet-grid-50 np-mobile">
+        <a href="https://kurotori0125.github.io/post/lou-cheng-ba-li-de-yu/" class="thumb hover-effect">
+          <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('');"></span>
+        </a>
+        <div class="info gradient-effect">
+          <time datetime="2017-04-01">4 年前</time>
+          <h4 class="title usmall">
+            <a href="https://kurotori0125.github.io/post/lou-cheng-ba-li-de-yu/">【楼诚】巴黎的雨</a>
+          </h4>
+        </div>
+      </article>
+      
+    
+      
+      <article class="item default grid-33 tablet-grid-50 np-mobile">
+        <a href="https://kurotori0125.github.io/post/lou-cheng-jie/" class="thumb hover-effect">
+          <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('');"></span>
+        </a>
+        <div class="info gradient-effect">
+          <time datetime="2017-02-05">4 年前</time>
+          <h4 class="title usmall">
+            <a href="https://kurotori0125.github.io/post/lou-cheng-jie/">【楼诚】解</a>
+          </h4>
+        </div>
+      </article>
+      
+    
+      
+      <article class="item default grid-33 tablet-grid-50 np-mobile">
+        <a href="https://kurotori0125.github.io/post/lou-cheng-qi-meng/" class="thumb hover-effect">
+          <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('');"></span>
+        </a>
+        <div class="info gradient-effect">
+          <time datetime="2017-01-31">4 年前</time>
+          <h4 class="title usmall">
+            <a href="https://kurotori0125.github.io/post/lou-cheng-qi-meng/">【楼诚】启蒙</a>
+          </h4>
+        </div>
+      </article>
+      
+    
+    <div class="clear"></div>
+
+</div>
+            <!-- end: .articles -->
+            
+                        <div class="epcl-pagination section">
+              <div class="nav">
+                
+                
+              </div>
+            </div>
+            
+          </div>
+          </div>
+        </div>
+      </main>
+
+        <footer id="footer" class="grid-container">
+        <div class="widgets row gradient-effect">
+            <div class="default-sidebar border-effect">
+              <div class="grid-33 tablet-grid-50 mobile-grid-100">
+                <section id="tag_cloud-2" class="widget widget_epcl_posts_thumbs underline-effect">
+                  <h4 class="widget-title title white bordered">最新文章</h4>
+                  
+                  
+                  <article class="item post-0 post type-post status-publish format-standard has-post-thumbnail hentry">
+                    <a href="https://kurotori0125.github.io/post/qing-pi-ping-shun-ren-sheng-fang-zi-sha-zhi-nan/" class="thumb hover-effect">
+                      <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('');"></span>
+                    </a>
+                    <div class="info gradient-effect">
+                      <time datetime="2021-05-26">2021-05-26</time>
+                      <h4 class="title usmall">
+                        <a href="https://kurotori0125.github.io/post/qing-pi-ping-shun-ren-sheng-fang-zi-sha-zhi-nan/">【青皮】平顺人生防自杀指南</a>
+                      </h4>
+                    </div>
+                    <div class="clear"></div>
+                  </article>
+                  
+                  
+                  
+                  <article class="item post-1 post type-post status-publish format-standard has-post-thumbnail hentry">
+                    <a href="https://kurotori0125.github.io/post/shi-hua-li-20210519-yi-dan-shi-ri-bao-~shi-hu~orvol005-fan-yi/" class="thumb hover-effect">
+                      <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('');"></span>
+                    </a>
+                    <div class="info gradient-effect">
+                      <time datetime="2021-05-26">2021-05-26</time>
+                      <h4 class="title usmall">
+                        <a href="https://kurotori0125.github.io/post/shi-hua-li-20210519-yi-dan-shi-ri-bao-~shi-hu~orvol005-fan-yi/">【矢花黎】20210519-異担侍日報~侍ふ~|vol.005翻译</a>
+                      </h4>
+                    </div>
+                    <div class="clear"></div>
+                  </article>
+                  
+                  
+                  
+                  <article class="item post-2 post type-post status-publish format-standard has-post-thumbnail hentry">
+                    <a href="https://kurotori0125.github.io/post/shi-hua-li-20210505-yi-dan-shi-ri-bao-~shi-hu~orvol003-fan-yi/" class="thumb hover-effect">
+                      <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('');"></span>
+                    </a>
+                    <div class="info gradient-effect">
+                      <time datetime="2021-05-26">2021-05-26</time>
+                      <h4 class="title usmall">
+                        <a href="https://kurotori0125.github.io/post/shi-hua-li-20210505-yi-dan-shi-ri-bao-~shi-hu~orvol003-fan-yi/">【矢花黎】20210505-異担侍日報~侍ふ~|vol.003翻译</a>
+                      </h4>
+                    </div>
+                    <div class="clear"></div>
+                  </article>
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  <div class="clear"></div>
+                </section>
+              </div>
+
+              <div class="grid-33 tablet-grid-50 mobile-grid-100">
+                <section id="tag_cloud-2" class="widget widget_tag_cloud underline-effect">
+                  <h4 class="widget-title title white bordered">标签云</h4>
+                  <div class="tagcloud">
+                    
+                      <a href="https://kurotori0125.github.io/tag/6jwzhe2Y9/" class="ctag ctag-0 ctag-6jwzhe2Y9" aria-label="">A-翻译</a>
+                    
+                      <a href="https://kurotori0125.github.io/tag/5qH_SRtDz/" class="ctag ctag-1 ctag-5qH_SRtDz" aria-label="">F-7men侍</a>
+                    
+                      <a href="https://kurotori0125.github.io/tag/rt4tKI1qoG/" class="ctag ctag-2 ctag-rt4tKI1qoG" aria-label="">P-矢花黎</a>
+                    
+                      <a href="https://kurotori0125.github.io/tag/L2eeri9vY/" class="ctag ctag-3 ctag-L2eeri9vY" aria-label="">CP-光树</a>
+                    
+                      <a href="https://kurotori0125.github.io/tag/huq0pgClT/" class="ctag ctag-4 ctag-huq0pgClT" aria-label="">P-佐佐木大光</a>
+                    
+                      <a href="https://kurotori0125.github.io/tag/XbzfX0SV9t/" class="ctag ctag-5 ctag-XbzfX0SV9t" aria-label="">P-本高克树</a>
+                    
+                      <a href="https://kurotori0125.github.io/tag/adBGsHa1d/" class="ctag ctag-6 ctag-adBGsHa1d" aria-label="">F-R1SE</a>
+                    
+                      <a href="https://kurotori0125.github.io/tag/cTaUrBsrO/" class="ctag ctag-7 ctag-cTaUrBsrO" aria-label="">N-中国</a>
+                    
+                      <a href="https://kurotori0125.github.io/tag/ICsANSJqG/" class="ctag ctag-8 ctag-ICsANSJqG" aria-label="">A-fanfiction</a>
+                    
+                      <a href="https://kurotori0125.github.io/tag/5w_koCM5L/" class="ctag ctag-9 ctag-5w_koCM5L" aria-label="">unfinished</a>
+                    
+                      <a href="https://kurotori0125.github.io/tag/STV-oItqj/" class="ctag ctag-10 ctag-STV-oItqj" aria-label="">CP-高光</a>
+                    
+                      <a href="https://kurotori0125.github.io/tag/hWQANAhax/" class="ctag ctag-11 ctag-hWQANAhax" aria-label="">N-日本</a>
+                    
+                      <a href="https://kurotori0125.github.io/tag/St1VvLAi8/" class="ctag ctag-12 ctag-St1VvLAi8" aria-label="">CP-矢今</a>
+                    
+                      <a href="https://kurotori0125.github.io/tag/3eyI1xcbhh/" class="ctag ctag-13 ctag-3eyI1xcbhh" aria-label="">P-今野大辉</a>
+                    
+                      <a href="https://kurotori0125.github.io/tag/Vwf-sfDQ7/" class="ctag ctag-14 ctag-Vwf-sfDQ7" aria-label="">CP-13予隆</a>
+                    
+                      <a href="https://kurotori0125.github.io/tag/gUAOBb4t0/" class="ctag ctag-15 ctag-gUAOBb4t0" aria-label="">P-贾涵予</a>
+                    
+                      <a href="https://kurotori0125.github.io/tag/hW7QfxtQy/" class="ctag ctag-16 ctag-hW7QfxtQy" aria-label="">F-Boystory</a>
+                    
+                      <a href="https://kurotori0125.github.io/tag/K714jwf9T/" class="ctag ctag-17 ctag-K714jwf9T" aria-label="">CP-12予豪</a>
+                    
+                      <a href="https://kurotori0125.github.io/tag/RkaHWnA21/" class="ctag ctag-18 ctag-RkaHWnA21" aria-label="">CP-1ALL1</a>
+                    
+                      <a href="https://kurotori0125.github.io/tag/ihOjVwO7w/" class="ctag ctag-19 ctag-ihOjVwO7w" aria-label="">CP-小洛豪</a>
+                    
+                      <a href="https://kurotori0125.github.io/tag/iiMr5mHQcV/" class="ctag ctag-20 ctag-iiMr5mHQcV" aria-label="">P-何洛洛</a>
+                    
+                      <a href="https://kurotori0125.github.io/tag/_9f4KNrU_/" class="ctag ctag-21 ctag-_9f4KNrU_" aria-label="">F-易安音乐社</a>
+                    
+                      <a href="https://kurotori0125.github.io/tag/N4gIFSiKr/" class="ctag ctag-22 ctag-N4gIFSiKr" aria-label="">CP-方洛</a>
+                    
+                      <a href="https://kurotori0125.github.io/tag/4My103LRN/" class="ctag ctag-23 ctag-4My103LRN" aria-label="">CP-琛南旧事</a>
+                    
+                      <a href="https://kurotori0125.github.io/tag/I32Smccgo/" class="ctag ctag-24 ctag-I32Smccgo" aria-label="">F-GOT7</a>
+                    
+                      <a href="https://kurotori0125.github.io/tag/1DPbYg3-E/" class="ctag ctag-25 ctag-1DPbYg3-E" aria-label="">CP-笔谦</a>
+                    
+                      <a href="https://kurotori0125.github.io/tag/sFQztwqzr/" class="ctag ctag-26 ctag-sFQztwqzr" aria-label="">N-韩国</a>
+                    
+                      <a href="https://kurotori0125.github.io/tag/VmbI2N6uu/" class="ctag ctag-27 ctag-VmbI2N6uu" aria-label="">P-金有谦</a>
+                    
+                      <a href="https://kurotori0125.github.io/tag/gEc4NbxuY/" class="ctag ctag-28 ctag-gEc4NbxuY" aria-label="">随笔</a>
+                    
+                      <a href="https://kurotori0125.github.io/tag/p9LyWvCoT/" class="ctag ctag-29 ctag-p9LyWvCoT" aria-label="">P-傅韵哲</a>
+                    
+                      <a href="https://kurotori0125.github.io/tag/YGMjJ4kDX/" class="ctag ctag-30 ctag-YGMjJ4kDX" aria-label="">P-余沐阳</a>
+                    
+                      <a href="https://kurotori0125.github.io/tag/TZUJ1NKm-/" class="ctag ctag-31 ctag-TZUJ1NKm-" aria-label="">P-池忆</a>
+                    
+                      <a href="https://kurotori0125.github.io/tag/HZgy_IKUm/" class="ctag ctag-32 ctag-HZgy_IKUm" aria-label="">CP-鲨忆</a>
+                    
+                      <a href="https://kurotori0125.github.io/tag/mJ6Fc8NKoK/" class="ctag ctag-33 ctag-mJ6Fc8NKoK" aria-label="">CP-池缚鲨</a>
+                    
+                      <a href="https://kurotori0125.github.io/tag/IxmtoqloB/" class="ctag ctag-34 ctag-IxmtoqloB" aria-label="">原创</a>
+                    
+                      <a href="https://kurotori0125.github.io/tag/ni2a-ryBZf/" class="ctag ctag-35 ctag-ni2a-ryBZf" aria-label="">生贺</a>
+                    
+                      <a href="https://kurotori0125.github.io/tag/jzEBz2pSZ8/" class="ctag ctag-36 ctag-jzEBz2pSZ8" aria-label="">袁莫涵</a>
+                    
+                      <a href="https://kurotori0125.github.io/tag/xUIjeDzsQR/" class="ctag ctag-37 ctag-xUIjeDzsQR" aria-label="">华澍而</a>
+                    
+                      <a href="https://kurotori0125.github.io/tag/t9DBRbeTW/" class="ctag ctag-38 ctag-t9DBRbeTW" aria-label="">P-孙亦航</a>
+                    
+                      <a href="https://kurotori0125.github.io/tag/CUhxnHaSB/" class="ctag ctag-39 ctag-CUhxnHaSB" aria-label="">P-林墨</a>
+                    
+                      <a href="https://kurotori0125.github.io/tag/nuTupfwEP/" class="ctag ctag-40 ctag-nuTupfwEP" aria-label="">CP-航墨</a>
+                    
+                      <a href="https://kurotori0125.github.io/tag/iYRQtVCMs/" class="ctag ctag-41 ctag-iYRQtVCMs" aria-label="">CP-千宏1002</a>
+                    
+                      <a href="https://kurotori0125.github.io/tag/DXMxR2iUb/" class="ctag ctag-42 ctag-DXMxR2iUb" aria-label="">F-时代峰峻</a>
+                    
+                      <a href="https://kurotori0125.github.io/tag/MDN3b-f0p/" class="ctag ctag-43 ctag-MDN3b-f0p" aria-label="">CP-洛忆不绝</a>
+                    
+                      <a href="https://kurotori0125.github.io/tag/otrbzukNJ/" class="ctag ctag-44 ctag-otrbzukNJ" aria-label="">CP-山花</a>
+                    
+                      <a href="https://kurotori0125.github.io/tag/JAxY0c60z/" class="ctag ctag-45 ctag-JAxY0c60z" aria-label="">脑洞</a>
+                    
+                      <a href="https://kurotori0125.github.io/tag/ZaMGc1qsZ/" class="ctag ctag-46 ctag-ZaMGc1qsZ" aria-label="">CP-撸叉</a>
+                    
+                      <a href="https://kurotori0125.github.io/tag/JU6BJeJht/" class="ctag ctag-47 ctag-JU6BJeJht" aria-label="">P-张雨鑫</a>
+                    
+                      <a href="https://kurotori0125.github.io/tag/d9vndBOeQ/" class="ctag ctag-48 ctag-d9vndBOeQ" aria-label="">P-曾艳芬</a>
+                    
+                      <a href="https://kurotori0125.github.io/tag/wt1N7l6XtW/" class="ctag ctag-49 ctag-wt1N7l6XtW" aria-label="">F-塞纳河</a>
+                    
+                      <a href="https://kurotori0125.github.io/tag/6fF8tA7HG/" class="ctag ctag-50 ctag-6fF8tA7HG" aria-label="">F-白夜追凶</a>
+                    
+                      <a href="https://kurotori0125.github.io/tag/AKx-il5Ad/" class="ctag ctag-51 ctag-AKx-il5Ad" aria-label="">CP-关周</a>
+                    
+                      <a href="https://kurotori0125.github.io/tag/GiKULNVuG/" class="ctag ctag-52 ctag-GiKULNVuG" aria-label="">翻译</a>
+                    
+                      <a href="https://kurotori0125.github.io/tag/Wb1Tt5YJ5d/" class="ctag ctag-53 ctag-Wb1Tt5YJ5d" aria-label="">青皮</a>
+                    
+                      <a href="https://kurotori0125.github.io/tag/zeWKWbzd3/" class="ctag ctag-54 ctag-zeWKWbzd3" aria-label="">CP-蔺靖</a>
+                    
+                      <a href="https://kurotori0125.github.io/tag/Ao87JXpuu/" class="ctag ctag-55 ctag-Ao87JXpuu" aria-label="">F-琅琊榜</a>
+                    
+                      <a href="https://kurotori0125.github.io/tag/0u6l-i3KE/" class="ctag ctag-56 ctag-0u6l-i3KE" aria-label="">CP-楼诚</a>
+                    
+                      <a href="https://kurotori0125.github.io/tag/ZzQJNvpts/" class="ctag ctag-57 ctag-ZzQJNvpts" aria-label="">F-伪装者</a>
+                    
+                  </div>
+                  <div class="clear"></div>
+                </section>
+              </div>
+
+              <div class="grid-33 tablet-grid-50 mobile-grid-100">
+                <section id="epcl_about-2" class="widget widget_epcl_about underline-effect">
+                  <h4 class="widget-title title white bordered">关于我</h4>
+                  <div class="avatar">
+                    <a href="" class="translate-effect thumb"><span class="fullimage cover" style="background-image: url(https://kurotori0125.github.io//images/avatar.png);"></span></a>
+                  </div>
+                  <div class="info">
+                    <h4 class="title small author-name gradient-effect no-margin"><a href="">圆形废墟 The Circular Ruins</a></h4>
+                    <p class="founder">The Circular Ruins</p>
+                    <div class="social">
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                    </div> 
+                  </div>
+                  <div class="clear"></div>
+                  </section>
+              </div>
+
+            </div>
+            <div class="clear"></div>
         </div>
 
-        <ul class="listing">
-
-                
-                             
-         <div class="listing-item">
-          <div class="listing-post">
-           <a href="https://kurotori0125.github.io/post/qing-pi-ping-shun-ren-sheng-fang-zi-sha-zhi-nan/" title="【青皮】平顺人生防自杀指南">【青皮】平顺人生防自杀指南</a>
-           <div class="post-time">
-            <span class="date">2021-05-26 </span>
-           </div>
-          </div>
-         </div>
-         
-         
-                             
-         <div class="listing-item">
-          <div class="listing-post">
-           <a href="https://kurotori0125.github.io/post/shi-hua-li-20210519-yi-dan-shi-ri-bao-~shi-hu~orvol005-fan-yi/" title="【矢花黎】20210519-異担侍日報~侍ふ~|vol.005翻译">【矢花黎】20210519-異担侍日報~侍ふ~|vol.005翻译</a>
-           <div class="post-time">
-            <span class="date">2021-05-26 </span>
-           </div>
-          </div>
-         </div>
-         
-         
-                             
-         <div class="listing-item">
-          <div class="listing-post">
-           <a href="https://kurotori0125.github.io/post/shi-hua-li-20210505-yi-dan-shi-ri-bao-~shi-hu~orvol003-fan-yi/" title="【矢花黎】20210505-異担侍日報~侍ふ~|vol.003翻译">【矢花黎】20210505-異担侍日報~侍ふ~|vol.003翻译</a>
-           <div class="post-time">
-            <span class="date">2021-05-26 </span>
-           </div>
-          </div>
-         </div>
-         
-         
-                             
-         <div class="listing-item">
-          <div class="listing-post">
-           <a href="https://kurotori0125.github.io/post/shi-hua-li-20210428-yi-dan-shi-ri-bao-~shi-hu~orvol002-fan-yi/" title="【矢花黎】20210428-異担侍日報~侍ふ~|vol.002翻译">【矢花黎】20210428-異担侍日報~侍ふ~|vol.002翻译</a>
-           <div class="post-time">
-            <span class="date">2021-05-26 </span>
-           </div>
-          </div>
-         </div>
-         
-         
-                             
-         <div class="listing-item">
-          <div class="listing-post">
-           <a href="https://kurotori0125.github.io/post/vol006/" title="【矢花黎】20210526-異担侍日報~侍ふ~|vol.006翻译">【矢花黎】20210526-異担侍日報~侍ふ~|vol.006翻译</a>
-           <div class="post-time">
-            <span class="date">2021-05-26 </span>
-           </div>
-          </div>
-         </div>
-         
-         
-                             
-         <div class="listing-item">
-          <div class="listing-post">
-           <a href="https://kurotori0125.github.io/post/ren-sheng-zui-hou-yi-ge-shu-jia-yao-zuo-de-shi/" title=" 【青皮】人生最后一个暑假要做的事"> 【青皮】人生最后一个暑假要做的事</a>
-           <div class="post-time">
-            <span class="date">2021-05-26 </span>
-           </div>
-          </div>
-         </div>
-         
-         
-                             
-         <div class="listing-item">
-          <div class="listing-post">
-           <a href="https://kurotori0125.github.io/post/shi-hua-li-20210512-yi-dan-shi-ri-bao-~shi-hu~orvol004-fan-yi/" title="【矢花黎】20210512-異担侍日報~侍ふ~|vol.004翻译">【矢花黎】20210512-異担侍日報~侍ふ~|vol.004翻译</a>
-           <div class="post-time">
-            <span class="date">2021-05-12 </span>
-           </div>
-          </div>
-         </div>
-         
-         
-                             
-         <div class="listing-item">
-          <div class="listing-post">
-           <a href="https://kurotori0125.github.io/post/tuo-de-shi-jie/" title="【青皮原创】牠的世界 ">【青皮原创】牠的世界 </a>
-           <div class="post-time">
-            <span class="date">2021-05-05 </span>
-           </div>
-          </div>
-         </div>
-         
-         
-                             
-         <div class="listing-item">
-          <div class="listing-post">
-           <a href="https://kurotori0125.github.io/post/guang-shu-or-bu-zhong-yue-kan-shou-du-quan-fan-yi/" title="【光树 | 不仲】月刊首都圈翻译">【光树 | 不仲】月刊首都圈翻译</a>
-           <div class="post-time">
-            <span class="date">2021-04-24 </span>
-           </div>
-          </div>
-         </div>
-         
-         
-                             
-         <div class="listing-item">
-          <div class="listing-post">
-           <a href="https://kurotori0125.github.io/post/shi-hua-li-20210422-yi-duan-shi-ri-bao-~shi-bu~-or-vol001-fan-yi/" title="【矢花黎】20210422-異端侍日報～侍ぶ～ | vol.001 翻译">【矢花黎】20210422-異端侍日報～侍ぶ～ | vol.001 翻译</a>
-           <div class="post-time">
-            <span class="date">2021-04-22 </span>
-           </div>
-          </div>
-         </div>
-         
-         
-                             
-         <div class="listing-item">
-          <div class="listing-post">
-           <a href="https://kurotori0125.github.io/post/fan-yi-mu-lu-or-yi-duan-shi-ri-bao-~shi-bu~/" title="【7men侍】侍ぶ+杂志翻译目录">【7men侍】侍ぶ+杂志翻译目录</a>
-           <div class="post-time">
-            <span class="date">2021-04-22 </span>
-           </div>
-          </div>
-         </div>
-         
-         
-                             
-         <div class="listing-item">
-          <div class="listing-post">
-           <a href="https://kurotori0125.github.io/post/lofter-gui-dang-di-shi-san-zhi-hei-niao/" title="【lofter归档】第十三只黑鸟">【lofter归档】第十三只黑鸟</a>
-           <div class="post-time">
-            <span class="date">2021-04-02 </span>
-           </div>
-          </div>
-         </div>
-         
-         
-                             
-         <div class="listing-item">
-          <div class="listing-post">
-           <a href="https://kurotori0125.github.io/post/mu-lu-kcp-da-quan/" title="【目录】吴青皮女士磕CP与产出大全">【目录】吴青皮女士磕CP与产出大全</a>
-           <div class="post-time">
-            <span class="date">2021-03-29 </span>
-           </div>
-          </div>
-         </div>
-         
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-        </ul>
+        <div class="logo">
+          <a href="https://kurotori0125.github.io/"><img src="" alt=""></a>
+        </div>
+        <p class="published border-effect">
+          ©2019 共 77 篇文章
+          <br/>
+          Theme <a href="https://gridea.dev/" target="_blank">「breek」</a> Powered by <a href="https://gridea.dev/" target="_blank">「Gridea」</a>
+        </p>
         
-        <div class="listing-title">
-                2020
-        </div>
+        <a href="javascript:void(0)" id="back-to-top" class="epcl-button dark" style="display:none">
+          <i class="fa fa-arrow"></i>
+        </a>
+    </footer>
+    
+    <div class="clear"></div>
 
-        <ul class="listing">
-
-                
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                             
-         <div class="listing-item">
-          <div class="listing-post">
-           <a href="https://kurotori0125.github.io/post/r1se-or-rang-ye-santa-tracker/" title="【R1SE | 让也】Santa Tracker">【R1SE | 让也】Santa Tracker</a>
-           <div class="post-time">
-            <span class="date">2020-12-25 </span>
-           </div>
-          </div>
-         </div>
-         
-         
-                             
-         <div class="listing-item">
-          <div class="listing-post">
-           <a href="https://kurotori0125.github.io/post/gao-guang-da-xian-i/" title="【7men侍 | 光树】大嫌い（未完）">【7men侍 | 光树】大嫌い（未完）</a>
-           <div class="post-time">
-            <span class="date">2020-06-17 </span>
-           </div>
-          </div>
-         </div>
-         
-         
-                             
-         <div class="listing-item">
-          <div class="listing-post">
-           <a href="https://kurotori0125.github.io/post/7men-shi-or-shi-jin-pu-tong-xia-ri/" title="【7men侍 | 矢今】普通夏日">【7men侍 | 矢今】普通夏日</a>
-           <div class="post-time">
-            <span class="date">2020-05-19 </span>
-           </div>
-          </div>
-         </div>
-         
-         
-                             
-         <div class="listing-item">
-          <div class="listing-post">
-           <a href="https://kurotori0125.github.io/post/31-tian-tian-quan-mei-mai-wan/" title="【Boystory | 31】甜甜圈没卖完">【Boystory | 31】甜甜圈没卖完</a>
-           <div class="post-time">
-            <span class="date">2020-04-01 </span>
-           </div>
-          </div>
-         </div>
-         
-         
-                             
-         <div class="listing-item">
-          <div class="listing-post">
-           <a href="https://kurotori0125.github.io/post/31-mo-fang/" title="【Boystory | 31】魔方">【Boystory | 31】魔方</a>
-           <div class="post-time">
-            <span class="date">2020-04-01 </span>
-           </div>
-          </div>
-         </div>
-         
-         
-                             
-         <div class="listing-item">
-          <div class="listing-post">
-           <a href="https://kurotori0125.github.io/post/123-lao-zhu-he/" title="【Boystory | 123】老竹盒">【Boystory | 123】老竹盒</a>
-           <div class="post-time">
-            <span class="date">2020-01-26 </span>
-           </div>
-          </div>
-         </div>
-         
-         
-                             
-         <div class="listing-item">
-          <div class="listing-post">
-           <a href="https://kurotori0125.github.io/post/r1se-quan-yuan-ping-xi-zhen-xiao-luo-hao-pian/" title="【R1SE | 全员平溪镇】小洛豪篇">【R1SE | 全员平溪镇】小洛豪篇</a>
-           <div class="post-time">
-            <span class="date">2020-01-11 </span>
-           </div>
-          </div>
-         </div>
-         
-         
-                             
-         <div class="listing-item">
-          <div class="listing-post">
-           <a href="https://kurotori0125.github.io/post/r1se-or-xiao-luo-hao-ban-xiang-bu-xiang/" title="【易安·R1SE | 小洛豪】半像不像">【易安·R1SE | 小洛豪】半像不像</a>
-           <div class="post-time">
-            <span class="date">2020-01-02 </span>
-           </div>
-          </div>
-         </div>
-         
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-        </ul>
         
-        <div class="listing-title">
-                2019
-        </div>
 
-        <ul class="listing">
-
-                
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                             
-         <div class="listing-item">
-          <div class="listing-post">
-           <a href="https://kurotori0125.github.io/post/r1se-or-yao-yan-si-qi-lu-ke/" title="【R1SE | 姚颜四起】旅客">【R1SE | 姚颜四起】旅客</a>
-           <div class="post-time">
-            <span class="date">2019-12-27 </span>
-           </div>
-          </div>
-         </div>
-         
-         
-                             
-         <div class="listing-item">
-          <div class="listing-post">
-           <a href="https://kurotori0125.github.io/post/r1se-or-xiao-luo-hao-she-yao/" title="【R1SE | 小洛豪】蛇妖">【R1SE | 小洛豪】蛇妖</a>
-           <div class="post-time">
-            <span class="date">2019-12-27 </span>
-           </div>
-          </div>
-         </div>
-         
-         
-                             
-         <div class="listing-item">
-          <div class="listing-post">
-           <a href="https://kurotori0125.github.io/post/r1se-or-xiao-luo-hao-huan-ying-dao-zhe-le-yuan-lai/" title="【R1SE | 小洛豪】欢迎到这乐园来">【R1SE | 小洛豪】欢迎到这乐园来</a>
-           <div class="post-time">
-            <span class="date">2019-12-25 </span>
-           </div>
-          </div>
-         </div>
-         
-         
-                             
-         <div class="listing-item">
-          <div class="listing-post">
-           <a href="https://kurotori0125.github.io/post/ming-fu-qi-shi-ran-gang/" title="【R1SE | 名副齐石】染缸">【R1SE | 名副齐石】染缸</a>
-           <div class="post-time">
-            <span class="date">2019-12-25 </span>
-           </div>
-          </div>
-         </div>
-         
-         
-                             
-         <div class="listing-item">
-          <div class="listing-post">
-           <a href="https://kurotori0125.github.io/post/r1se-or-chen-nan-jiu-shi-hai-jiao-jin-tou-wei-wan/" title="【R1SE | 琛南旧事】海角尽头">【R1SE | 琛南旧事】海角尽头</a>
-           <div class="post-time">
-            <span class="date">2019-12-25 </span>
-           </div>
-          </div>
-         </div>
-         
-         
-                             
-         <div class="listing-item">
-          <div class="listing-post">
-           <a href="https://kurotori0125.github.io/post/yi-an-r1se-or-qi-hao-luo-feng-cang/" title="【R1SE | 齐豪洛】封藏">【R1SE | 齐豪洛】封藏</a>
-           <div class="post-time">
-            <span class="date">2019-12-24 </span>
-           </div>
-          </div>
-         </div>
-         
-         
-                             
-         <div class="listing-item">
-          <div class="listing-post">
-           <a href="https://kurotori0125.github.io/post/31-luo-tuo-ta-diao-hui-cha-bei-li/" title="【Boystory | 31】骆驼它掉回茶杯里">【Boystory | 31】骆驼它掉回茶杯里</a>
-           <div class="post-time">
-            <span class="date">2019-12-12 </span>
-           </div>
-          </div>
-         </div>
-         
-         
-                             
-         <div class="listing-item">
-          <div class="listing-post">
-           <a href="https://kurotori0125.github.io/post/12-zhe-er-hu-shi-ni-sao-er-de/" title="【Boystory | 12】这二胡是你嫂儿的">【Boystory | 12】这二胡是你嫂儿的</a>
-           <div class="post-time">
-            <span class="date">2019-12-12 </span>
-           </div>
-          </div>
-         </div>
-         
-         
-                             
-         <div class="listing-item">
-          <div class="listing-post">
-           <a href="https://kurotori0125.github.io/post/13-chuan-yue-zhe-tou-lai-de-ai-qing/" title="【Boystory | 13】穿越者偷来的爱情">【Boystory | 13】穿越者偷来的爱情</a>
-           <div class="post-time">
-            <span class="date">2019-12-07 </span>
-           </div>
-          </div>
-         </div>
-         
-         
-                             
-         <div class="listing-item">
-          <div class="listing-post">
-           <a href="https://kurotori0125.github.io/post/31-he-xin-long-bu-xiang-shuo-hua/" title="【Boystory | 31】贺鑫隆不想说话">【Boystory | 31】贺鑫隆不想说话</a>
-           <div class="post-time">
-            <span class="date">2019-12-02 </span>
-           </div>
-          </div>
-         </div>
-         
-         
-                             
-         <div class="listing-item">
-          <div class="listing-post">
-           <a href="https://kurotori0125.github.io/post/31-jia-han-yu-zhe-ci-mei-you-shuo-shi-hua/" title="【Boystory | 31】贾涵予这次没有说实话">【Boystory | 31】贾涵予这次没有说实话</a>
-           <div class="post-time">
-            <span class="date">2019-11-30 </span>
-           </div>
-          </div>
-         </div>
-         
-         
-                             
-         <div class="listing-item">
-          <div class="listing-post">
-           <a href="https://kurotori0125.github.io/post/all1-huang-ye/" title="【Boystory | all1】荒野">【Boystory | all1】荒野</a>
-           <div class="post-time">
-            <span class="date">2019-11-26 </span>
-           </div>
-          </div>
-         </div>
-         
-         
-                             
-         <div class="listing-item">
-          <div class="listing-post">
-           <a href="https://kurotori0125.github.io/post/13-he-xu-li-ru-shi-shuo/" title="【Boystory | 13】赫胥黎如是说">【Boystory | 13】赫胥黎如是说</a>
-           <div class="post-time">
-            <span class="date">2019-11-08 </span>
-           </div>
-          </div>
-         </div>
-         
-         
-                             
-         <div class="listing-item">
-          <div class="listing-post">
-           <a href="https://kurotori0125.github.io/post/13-nan-gang-ai-qing-gu-shi/" title="【Boystory | 13】南港爱情故事">【Boystory | 13】南港爱情故事</a>
-           <div class="post-time">
-            <span class="date">2019-11-02 </span>
-           </div>
-          </div>
-         </div>
-         
-         
-                             
-         <div class="listing-item">
-          <div class="listing-post">
-           <a href="https://kurotori0125.github.io/post/1all1-jiu-hen-yuan-de-ri-ri-ye-ye/" title="【Boystory | 1all1】就很远的日日夜夜">【Boystory | 1all1】就很远的日日夜夜</a>
-           <div class="post-time">
-            <span class="date">2019-11-01 </span>
-           </div>
-          </div>
-         </div>
-         
-         
-                             
-         <div class="listing-item">
-          <div class="listing-post">
-           <a href="https://kurotori0125.github.io/post/boystory-nan-gao-yi-er-san-si-wu-liu-md/" title="【Boystory | 全员】南皋一二三四五六">【Boystory | 全员】南皋一二三四五六</a>
-           <div class="post-time">
-            <span class="date">2019-10-08 </span>
-           </div>
-          </div>
-         </div>
-         
-         
-                             
-         <div class="listing-item">
-          <div class="listing-post">
-           <a href="https://kurotori0125.github.io/post/got7-or-bi-qian-wu-yuan-ze-dong-wu/" title="【GOT7 | 笔谦】无原则动物">【GOT7 | 笔谦】无原则动物</a>
-           <div class="post-time">
-            <span class="date">2019-09-10 </span>
-           </div>
-          </div>
-         </div>
-         
-         
-                             
-         <div class="listing-item">
-          <div class="listing-post">
-           <a href="https://kurotori0125.github.io/post/got7-xiao-zhen-da-gang/" title="【GOT7】小镇（大纲）">【GOT7】小镇（大纲）</a>
-           <div class="post-time">
-            <span class="date">2019-05-15 </span>
-           </div>
-          </div>
-         </div>
-         
-         
-                             
-         <div class="listing-item">
-          <div class="listing-post">
-           <a href="https://kurotori0125.github.io/post/sui-bi-lesslessspring-in-desperately-shygreatergreater/" title="【随笔】《Spring  in desperately shy》">【随笔】《Spring  in desperately shy》</a>
-           <div class="post-time">
-            <span class="date">2019-04-21 </span>
-           </div>
-          </div>
-         </div>
-         
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-        </ul>
-        
-        <div class="listing-title">
-                2018
-        </div>
-
-        <ul class="listing">
-
-                
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                             
-         <div class="listing-item">
-          <div class="listing-post">
-           <a href="https://kurotori0125.github.io/post/yi-an-chi-fu-sha/" title="【易安 | 三角】池缚鲨">【易安 | 三角】池缚鲨</a>
-           <div class="post-time">
-            <span class="date">2018-12-18 </span>
-           </div>
-          </div>
-         </div>
-         
-         
-                             
-         <div class="listing-item">
-          <div class="listing-post">
-           <a href="https://kurotori0125.github.io/post/sheng-he-yuan-bu-leng-de-yi-tian-he-xie/" title="【青皮 | 生贺】袁不冷的一天（合写）">【青皮 | 生贺】袁不冷的一天（合写）</a>
-           <div class="post-time">
-            <span class="date">2018-11-15 </span>
-           </div>
-          </div>
-         </div>
-         
-         
-                             
-         <div class="listing-item">
-          <div class="listing-post">
-           <a href="https://kurotori0125.github.io/post/yi-an-or-mo-hang-luo-bu-yu-keng/" title="【易安 | 墨航】萝卜与坑">【易安 | 墨航】萝卜与坑</a>
-           <div class="post-time">
-            <span class="date">2018-10-18 </span>
-           </div>
-          </div>
-         </div>
-         
-         
-                             
-         <div class="listing-item">
-          <div class="listing-post">
-           <a href="https://kurotori0125.github.io/post/yi-an-or-hang-sheng-he-ye-shen-liao/" title="【易安 | 航生贺】夜深了">【易安 | 航生贺】夜深了</a>
-           <div class="post-time">
-            <span class="date">2018-10-16 </span>
-           </div>
-          </div>
-         </div>
-         
-         
-                             
-         <div class="listing-item">
-          <div class="listing-post">
-           <a href="https://kurotori0125.github.io/post/yi-an-or-wu-ren-sha-diao-xiao-ju-chang/" title="【易安 | 五仁】沙雕小剧场">【易安 | 五仁】沙雕小剧场</a>
-           <div class="post-time">
-            <span class="date">2018-10-01 </span>
-           </div>
-          </div>
-         </div>
-         
-         
-                             
-         <div class="listing-item">
-          <div class="listing-post">
-           <a href="https://kurotori0125.github.io/post/yi-an-or-hang-mo-hang-gan-mou-ri/" title="【易安 | 航墨航】感冒日">【易安 | 航墨航】感冒日</a>
-           <div class="post-time">
-            <span class="date">2018-09-20 </span>
-           </div>
-          </div>
-         </div>
-         
-         
-                             
-         <div class="listing-item">
-          <div class="listing-post">
-           <a href="https://kurotori0125.github.io/post/qian-hong-yong-yuan-qing-xing-de-long-zhua-huai/" title="【千宏】永远清醒的龙爪槐">【千宏】永远清醒的龙爪槐</a>
-           <div class="post-time">
-            <span class="date">2018-09-20 </span>
-           </div>
-          </div>
-         </div>
-         
-         
-                             
-         <div class="listing-item">
-          <div class="listing-post">
-           <a href="https://kurotori0125.github.io/post/yi-an-or-luo-yi-xia-yi-miao/" title="【易安 | 洛忆】下一秒">【易安 | 洛忆】下一秒</a>
-           <div class="post-time">
-            <span class="date">2018-09-10 </span>
-           </div>
-          </div>
-         </div>
-         
-         
-                             
-         <div class="listing-item">
-          <div class="listing-post">
-           <a href="https://kurotori0125.github.io/post/yi-an-or-qun-xiang-nan-chuan-ji-shi/" title="【易安 | 群像】南川记事">【易安 | 群像】南川记事</a>
-           <div class="post-time">
-            <span class="date">2018-08-31 </span>
-           </div>
-          </div>
-         </div>
-         
-         
-                             
-         <div class="listing-item">
-          <div class="listing-post">
-           <a href="https://kurotori0125.github.io/post/yi-an-or-hang-mo-lu-mang-de-shuang-yin-hao/" title="【易安 | 航墨】鲁莽的双引号">【易安 | 航墨】鲁莽的双引号</a>
-           <div class="post-time">
-            <span class="date">2018-08-20 </span>
-           </div>
-          </div>
-         </div>
-         
-         
-                             
-         <div class="listing-item">
-          <div class="listing-post">
-           <a href="https://kurotori0125.github.io/post/er-zi-fang-shi-er-xiao-ji-da-gang/" title="【二字】方十二小记">【二字】方十二小记</a>
-           <div class="post-time">
-            <span class="date">2018-07-22 </span>
-           </div>
-          </div>
-         </div>
-         
-         
-                             
-         <div class="listing-item">
-          <div class="listing-post">
-           <a href="https://kurotori0125.github.io/post/su-an-zhi-zhe-wu-wei/" title="【甦岸】知者无畏（弃文）">【甦岸】知者无畏（弃文）</a>
-           <div class="post-time">
-            <span class="date">2018-06-09 </span>
-           </div>
-          </div>
-         </div>
-         
-         
-                             
-         <div class="listing-item">
-          <div class="listing-post">
-           <a href="https://kurotori0125.github.io/post/shan-hua-hua-tu-zheng/" title="【山花】花吐症">【山花】花吐症</a>
-           <div class="post-time">
-            <span class="date">2018-06-09 </span>
-           </div>
-          </div>
-         </div>
-         
-         
-                             
-         <div class="listing-item">
-          <div class="listing-post">
-           <a href="https://kurotori0125.github.io/post/she-ding-ba-fen-ren/" title="【设定】八分人">【设定】八分人</a>
-           <div class="post-time">
-            <span class="date">2018-06-09 </span>
-           </div>
-          </div>
-         </div>
-         
-         
-                             
-         <div class="listing-item">
-          <div class="listing-post">
-           <a href="https://kurotori0125.github.io/post/lu-cha-shi-jie/" title="【撸叉】师姐">【撸叉】师姐</a>
-           <div class="post-time">
-            <span class="date">2018-06-09 </span>
-           </div>
-          </div>
-         </div>
-         
-         
-                             
-         <div class="listing-item">
-          <div class="listing-post">
-           <a href="https://kurotori0125.github.io/post/wu-yu-lun-bi-xiao-sang-ri-ji-wei-wan/" title="【吴语伦比】小桑日记">【吴语伦比】小桑日记</a>
-           <div class="post-time">
-            <span class="date">2018-06-09 </span>
-           </div>
-          </div>
-         </div>
-         
-         
-                             
-         <div class="listing-item">
-          <div class="listing-post">
-           <a href="https://kurotori0125.github.io/post/guan-zhou-feng-xun-chang-tu-che/" title="【关周峰巡】长途车">【关周峰巡】长途车</a>
-           <div class="post-time">
-            <span class="date">2018-06-09 </span>
-           </div>
-          </div>
-         </div>
-         
-         
-                             
-         <div class="listing-item">
-          <div class="listing-post">
-           <a href="https://kurotori0125.github.io/post/guan-zhou-xun-hua-du-bai-tai-ci/" title="【关周】巡花独白台词">【关周】巡花独白台词</a>
-           <div class="post-time">
-            <span class="date">2018-06-09 </span>
-           </div>
-          </div>
-         </div>
-         
-         
-                             
-         <div class="listing-item">
-          <div class="listing-post">
-           <a href="https://kurotori0125.github.io/post/guan-zhou-ju-chang/" title="【关周】剧场">【关周】剧场</a>
-           <div class="post-time">
-            <span class="date">2018-06-09 </span>
-           </div>
-          </div>
-         </div>
-         
-         
-                             
-         <div class="listing-item">
-          <div class="listing-post">
-           <a href="https://kurotori0125.github.io/post/guan-zhou-leng-bu-leng/" title="【关周】冷不冷">【关周】冷不冷</a>
-           <div class="post-time">
-            <span class="date">2018-06-09 </span>
-           </div>
-          </div>
-         </div>
-         
-         
-                             
-         <div class="listing-item">
-          <div class="listing-post">
-           <a href="https://kurotori0125.github.io/post/guan-zhou-cheng-xian-jie-er-san-shi-md/" title="【关周】成贤街二三事">【关周】成贤街二三事</a>
-           <div class="post-time">
-            <span class="date">2018-06-09 </span>
-           </div>
-          </div>
-         </div>
-         
-         
-                             
-         <div class="listing-item">
-          <div class="listing-post">
-           <a href="https://kurotori0125.github.io/post/guanzhou-cold-or-not/" title="【GuanZhou】Cold or Not">【GuanZhou】Cold or Not</a>
-           <div class="post-time">
-            <span class="date">2018-06-09 </span>
-           </div>
-          </div>
-         </div>
-         
-         
-                             
-         <div class="listing-item">
-          <div class="listing-post">
-           <a href="https://kurotori0125.github.io/post/qing-pi-or-fan-yi-jia-ting-jiao-shi-ben-jian-yang-ping/" title="【青皮 | 翻译】家庭教师-本间洋平">【青皮 | 翻译】家庭教师-本间洋平</a>
-           <div class="post-time">
-            <span class="date">2018-06-09 </span>
-           </div>
-          </div>
-         </div>
-         
-         
-                             
-         <div class="listing-item">
-          <div class="listing-post">
-           <a href="https://kurotori0125.github.io/post/shan-hua-ni-cong-qu-chu-lai-md/" title="【山花】你从去处来">【山花】你从去处来</a>
-           <div class="post-time">
-            <span class="date">2018-03-02 </span>
-           </div>
-          </div>
-         </div>
-         
-         
-                             
-         <div class="listing-item">
-          <div class="listing-post">
-           <a href="https://kurotori0125.github.io/post/guan-zhou-feng-xun-shi-yi-ci-ca-jian-er-guo/" title="【关周/峰巡】十一次擦肩而过">【关周/峰巡】十一次擦肩而过</a>
-           <div class="post-time">
-            <span class="date">2018-02-07 </span>
-           </div>
-          </div>
-         </div>
-         
-         
-                             
-         <div class="listing-item">
-          <div class="listing-post">
-           <a href="https://kurotori0125.github.io/post/guan-zhou-shi-jian-xian/" title="【关周】时间线">【关周】时间线</a>
-           <div class="post-time">
-            <span class="date">2018-02-05 </span>
-           </div>
-          </div>
-         </div>
-         
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-        </ul>
-        
-        <div class="listing-title">
-                2017
-        </div>
-
-        <ul class="listing">
-
-                
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                    
-         
-                             
-         <div class="listing-item">
-          <div class="listing-post">
-           <a href="https://kurotori0125.github.io/post/qing-pi-2017-tong-ren-xie-shou-nian-zhong-wen-juan/" title="【青皮】2017同人写手年终问卷">【青皮】2017同人写手年终问卷</a>
-           <div class="post-time">
-            <span class="date">2017-12-31 </span>
-           </div>
-          </div>
-         </div>
-         
-         
-                             
-         <div class="listing-item">
-          <div class="listing-post">
-           <a href="https://kurotori0125.github.io/post/guan-zhou-sheng-dan-hou-yi-tian/" title="【关周】圣诞后一天">【关周】圣诞后一天</a>
-           <div class="post-time">
-            <span class="date">2017-12-26 </span>
-           </div>
-          </div>
-         </div>
-         
-         
-                             
-         <div class="listing-item">
-          <div class="listing-post">
-           <a href="https://kurotori0125.github.io/post/lin-jing-yi-meng-hua-xu/" title="【蔺靖】一梦华胥">【蔺靖】一梦华胥</a>
-           <div class="post-time">
-            <span class="date">2017-07-01 </span>
-           </div>
-          </div>
-         </div>
-         
-         
-                             
-         <div class="listing-item">
-          <div class="listing-post">
-           <a href="https://kurotori0125.github.io/post/lou-cheng-ba-li-de-yu/" title="【楼诚】巴黎的雨">【楼诚】巴黎的雨</a>
-           <div class="post-time">
-            <span class="date">2017-04-01 </span>
-           </div>
-          </div>
-         </div>
-         
-         
-                             
-         <div class="listing-item">
-          <div class="listing-post">
-           <a href="https://kurotori0125.github.io/post/lou-cheng-jie/" title="【楼诚】解">【楼诚】解</a>
-           <div class="post-time">
-            <span class="date">2017-02-05 </span>
-           </div>
-          </div>
-         </div>
-         
-         
-                             
-         <div class="listing-item">
-          <div class="listing-post">
-           <a href="https://kurotori0125.github.io/post/lou-cheng-qi-meng/" title="【楼诚】启蒙">【楼诚】启蒙</a>
-           <div class="post-time">
-            <span class="date">2017-01-31 </span>
-           </div>
-          </div>
-         </div>
-         
-         
-        </ul>
-        	
-       </div>
-       <div class="pagination">
-        <ul class="clearfix"></ul>
-       </div>
-      </ul>
-     </div>
     </div>
-   </div>
-  </div>
-   <script src="https://kurotori0125.github.io//media/scripts/jquery.js"></script>
-  <script src="https://kurotori0125.github.io//media/scripts/jquery-migrate-1.2.1.min.js"></script>
-  <script src="https://kurotori0125.github.io//media/scripts/jquery.appear.js"></script>
-
-
- </body>
+    <!-- end: #wrapper -->
+  </body>
 </html>
