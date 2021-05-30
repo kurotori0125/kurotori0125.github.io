@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kurotori0125.github.io/</id>
     <title>圆形废墟 The Circular Ruins</title>
-    <updated>2021-05-30T08:41:15.611Z</updated>
+    <updated>2021-05-30T08:44:59.365Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://kurotori0125.github.io/"/>
     <link rel="self" href="https://kurotori0125.github.io/atom.xml"/>
@@ -11,12 +11,13 @@
     <icon>https://kurotori0125.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, 圆形废墟 The Circular Ruins</rights>
     <entry>
-        <title type="html"><![CDATA[图廊]]></title>
+        <title type="html"><![CDATA[航墨图廊]]></title>
         <id>https://kurotori0125.github.io/post/tu-lang/</id>
         <link href="https://kurotori0125.github.io/post/tu-lang/">
         </link>
         <updated>2021-05-30T08:38:05.000Z</updated>
-        <content type="html"><![CDATA[<p><img src="https://kurotori0125.github.io//post-images/1622363908362.jpg" alt="2020" loading="lazy"><br>
+        <content type="html"><![CDATA[<p><img src="https://kurotori0125.github.io//post-images/1622364160484.jpg" alt="" loading="lazy">!<br>
+<a href="https://kurotori0125.github.io//post-images/1622363908362.jpg">2020</a><br>
 <img src="https://kurotori0125.github.io//post-images/1622363910620.jpg" alt="" loading="lazy"><br>
 <img src="https://kurotori0125.github.io//post-images/1622363913358.jpg" alt="" loading="lazy"><br>
 <img src="https://kurotori0125.github.io//post-images/1622363927267.jpg" alt="" loading="lazy"><br>
