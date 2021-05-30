@@ -7,15 +7,14 @@
   <link rel="stylesheet" href="https://kurotori0125.github.io//styles/main.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
    <script src="https://cdn.staticfile.org/highlight.js/9.15.9/highlight.min.js"></script>
+   
     <script>hljs.initHighlightingOnLoad();</script>
  </head>
  <body>
      <div class="sidebar animated fadeInDown">
    <div class="logo-title">
     <div class="title">
-     <img src="https://kurotori0125.github.io//images/avatar.png?v=1622367723822" style="width:127px;" />
-
-     <h3 title=""><a href="/">大青皮</a></h3>
+     <img src="https://kurotori0125.github.io//images/avatar.png?v=1622367835445" style="width:127px;" />
 
      <div class="description">
       <p>The Circular Ruins</p>
@@ -37,8 +36,6 @@
 
     
 
-    <li><a href="https://www.instagram.com/yun_dqp/"><i class="fa fa-instagram"></i></a></li>
- 
     
 
     
@@ -781,7 +778,16 @@
   <script src="https://kurotori0125.github.io//media/scripts/jquery.js"></script>
   <script src="https://kurotori0125.github.io//media/scripts/jquery-migrate-1.2.1.min.js"></script>
   <script src="https://kurotori0125.github.io//media/scripts/jquery.appear.js"></script>
+<script src="//tokinx.github.io/ViewImage/view-image.min.js"></script>
 
 
+<script>
+    jQuery(document).ready(function () {
+        jQuery.viewImage({
+            'target' : '.gallery img,.dynamics_excerpt img,.song a', //需要使用ViewImage的图片
+            'delay'  : 300                //延迟时间
+        });
+    });
+</script>
  </body>
 </html>
