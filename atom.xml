@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kurotori0125.github.io/</id>
     <title>圆形废墟 The Circular Ruins</title>
-    <updated>2021-05-30T09:14:04.655Z</updated>
+    <updated>2021-05-30T09:22:40.616Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://kurotori0125.github.io/"/>
     <link rel="self" href="https://kurotori0125.github.io/atom.xml"/>
@@ -10,6 +10,15 @@
     <logo>https://kurotori0125.github.io/images/avatar.png</logo>
     <icon>https://kurotori0125.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, 圆形废墟 The Circular Ruins</rights>
+    <entry>
+        <title type="html"><![CDATA[翻译]]></title>
+        <id>https://kurotori0125.github.io/post/translation/</id>
+        <link href="https://kurotori0125.github.io/post/translation/">
+        </link>
+        <updated>2021-05-30T09:21:42.000Z</updated>
+        <content type="html"><![CDATA[<p>这里会放一下翻译目录</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[【青皮】平顺人生防自杀指南]]></title>
         <id>https://kurotori0125.github.io/post/qing-pi-ping-shun-ren-sheng-fang-zi-sha-zhi-nan/</id>
@@ -945,68 +954,6 @@ DJでは印とか付箋みたいな意味合いで<br>
 本髙「グループのためになることは何でもしたいから。でもこういう話は恥ずかしわ（笑）」<br>
 佐々木「恥ずい(笑)」<br>
 本髙「普段、他のメンバーからもそんな扱い受けてないから…でもシンプルにうれしいと思っちゃう自分が恥ずかしい(笑)」</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【矢花黎】20210422-異端侍日報～侍ぶ～ | vol.001 翻译]]></title>
-        <id>https://kurotori0125.github.io/post/shi-hua-li-20210422-yi-duan-shi-ri-bao-~shi-bu~-or-vol001-fan-yi/</id>
-        <link href="https://kurotori0125.github.io/post/shi-hua-li-20210422-yi-duan-shi-ri-bao-~shi-bu~-or-vol001-fan-yi/">
-        </link>
-        <updated>2021-04-22T12:31:34.000Z</updated>
-        <content type="html"><![CDATA[<p><img src="https://kurotori0125.github.io//post-images/1619104974969.jpg" alt="" loading="lazy"><br>
-原网页导航（仅限手机端）：</p>
-<p>https://www.johnnys-web.com/s/jwb/diary/detail/143783?ima=1425&amp;cd=1004#diarid143783</p>
-<p>正文+ 翻译：</p>
-<p>（翻不出❀❀的敬语）</p>
-<p><strong>2021/4/22 00:00</strong></p>
-<p><strong>vol.001</strong></p>
-<p><strong>みなさんどうもこんにちは～！！！</strong></p>
-<p><strong>矢花でございます</strong></p>
-<blockquote>
-<p>各位好！！！</p>
-<p>我是矢花</p>
-</blockquote>
-<p><strong>遂に僕ら「ジャニーズJr.の異端児」こと</strong><br>
-<strong>7 MEN 侍も遂に</strong><br>
-<strong>このジャニーズwebでブログを始めさせて頂くという事で</strong><br>
-<strong>よろしくお願いします！！</strong></p>
-<blockquote>
-<p>终于我们7 MEN 侍也终于以《杰尼斯Jr的异端》</p>
-<p>开始在杰尼斯web上连载日志了</p>
-<p>请多多关照！！</p>
-</blockquote>
-<p><strong>今後は侍ストーリーのように</strong><br>
-<strong>一応メンバーが曜日を担当して</strong><br>
-<strong>毎週更新っていうルールで</strong><br>
-<strong>やっていきますのでよろしくお願いします！！</strong></p>
-<blockquote>
-<p>今后会和侍story那样</p>
-<p>成员各自负责一周里的一天</p>
-<p>按照每周更新的规则</p>
-<p>请多多关注！！</p>
-</blockquote>
-<p><strong>つーことで僕の次の更新は28日ですね！！</strong><br>
-<strong>楽しみにしておいてください</strong></p>
-<blockquote>
-<p>所以我下一次的更新是28号！！</p>
-<p>敬请期待</p>
-</blockquote>
-<p><strong>皆さんご待望(？)の音楽の話とか</strong><br>
-<strong>文書ならではの事をいっぱいやってくつもりなんで</strong><br>
-<strong>身近のお友達にも宣伝してくだせぇ！</strong></p>
-<blockquote>
-<p>大家期望的（？）关于音乐的话题</p>
-<p>我准备写的东西也有很多</p>
-<p>请大家多多和朋友们宣传！</p>
-</blockquote>
-<p><strong>今日は初回の挨拶ってことなんでこんな感じで終わろうかと思います！</strong></p>
-<p><strong>これからよろしくお願いします～</strong></p>
-<p><strong>んじゃ！‪( <sup>_</sup>)/~~~</strong></p>
-<blockquote>
-<p>这次是初次问候所以就差不多这样结束了！</p>
-<p>今后也请多关照~</p>
-<p>掰掰！‪( <sup>_</sup>)/~~~</p>
-</blockquote>
 ]]></content>
     </entry>
 </feed>
