@@ -2382,6 +2382,12 @@ table {
 .post-content tr:nth-child(even) {
   background-color: #F7FAFC;
 }
+.post-content p {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
 .hljs {
   display: block;
   padding: 0.5em;
@@ -2814,6 +2820,8 @@ table {
 }
 .list-with-title .listing .listing-post {
   padding-bottom: 5px;
+  float: right;
+  width: 74%;
 }
 .list-with-title .listing .listing-post .post-time {
   float: right;
@@ -2824,6 +2832,29 @@ table {
 }
 .list-with-title .listing .listing-post a:hover {
   color: #4786D6;
+}
+.listing_left {
+  float: left;
+  width: 25%;
+}
+.listing_left_img {
+  height: 90px;
+  width: 100%;
+}
+.listing_left_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#gridea-search-form input {
+  margin: 50px 0;
+  width: 100%;
+  padding: 0 1.4rem;
+  border: none;
+  outline: none;
+  height: 3.062rem;
+  background-color: #f0f3f8;
+  box-sizing: border-box;
 }
 /* share */
 .share {
@@ -3020,6 +3051,39 @@ a.btn {
   text-align: center;
   padding-top: 50px;
 }
+.post_left {
+  float: right;
+  width: 74%;
+}
+.post_right {
+  float: left;
+  width: 25%;
+}
+.post_right_img {
+  width: 100%;
+  height: 158px;
+}
+.post_right_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.gallery-item {
+  width: calc((100% - 30px)/3);
+  float: left;
+  margin-right: 15px;
+  position: relative;
+  margin-bottom: 15px;
+}
+.gallery-item:nth-child(3n) {
+  margin-right: 0px;
+}
+.gallery-item img {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  border-radius: 5px;
+}
 @media screen and (max-width: 960px) {
   .sidebar {
     width: 100%;
@@ -3051,16 +3115,35 @@ a.btn {
   .footer {
     display: none;
   }
+  .gallery-item {
+    width: 100%;
+    margin-right: 0;
+  }
+  .post_left {
+    width: 60%;
+  }
+  .post_right {
+    width: 39%;
+  }
 }
 .jinggetag {
   font-size: 14px;
   padding: 8px 16px;
-  border-radius: 16px;
+  border-radius: 100px;
   background: rgba(0, 0, 0, 0.03);
   margin: 16px 16px 16px 0;
   transition: all 0.3s;
+  display: inline-block;
 }
 .jinggetag:hover {
   background: #dee2e6;
   color: #495057;
+}
+.post::after,
+.listing::after,
+.listing-item::after,
+.gallery::after {
+  display: table;
+  clear: both;
+  content: '';
 }
