@@ -2655,13 +2655,14 @@ table {
   line-height: 1;
   font-weight: 600;
   color: #464646;
-  font-size: 22px;
+  font-size: 26px;
   margin: 0;
 }
 .post .post-title a {
   text-decoration: none;
   letter-spacing: 1px;
   color: #5f5f5f;
+  font-size: 24px;
 }
 .post .post-title a:hover {
   text-decoration: underline;
@@ -2674,9 +2675,19 @@ table {
 .post .post-content a:hover {
   color: #2F69B3;
 }
-.post .post-content h3 {
+.post .post-content h1 {
   color: #5F5F5F;
   font-size: 22px;
+  font-weight: 600;
+}
+.post .post-content h2 {
+  color: #5F5F5F;
+  font-size: 20px;
+  font-weight: 600;
+}
+.post .post-content h3 {
+  color: #5F5F5F;
+  font-size: 18px;
   font-weight: 600;
 }
 .post .post-content h4 {
