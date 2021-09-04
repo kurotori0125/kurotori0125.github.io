@@ -7,16 +7,14 @@
   <link rel="stylesheet" href="https://kurotori0125.github.io/styles/main.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
    <script src="https://cdn.staticfile.org/highlight.js/9.15.9/highlight.min.js"></script>
-   
+   <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/fancyapps/fancybox/dist/jquery.fancybox.min.css" />
     <script>hljs.initHighlightingOnLoad();</script>
  </head>
  <body>
      <div class="sidebar animated fadeInDown">
    <div class="logo-title">
     <div class="title">
-     <img src="https://kurotori0125.github.io/images/avatar.png?v=1630730672194" style="width:127px;" />
-
-     <h3 title=""><a href="/">大青皮</a></h3>
+     <img src="https://kurotori0125.github.io/images/avatar.png?v=1630774145727" style="width:127px;" />
 
      <div class="description">
       <p>The Circular Ruins</br> 图文存档自留地
@@ -238,15 +236,21 @@
   <script src="https://kurotori0125.github.io/media/scripts/jquery-migrate-1.2.1.min.js"></script>
   <script src="https://kurotori0125.github.io/media/scripts/jquery.appear.js"></script>
 <script src="//tokinx.github.io/ViewImage/view-image.min.js"></script>
-
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox/dist/jquery.fancybox.min.js"></script>
 
 <script>
-    jQuery(document).ready(function () {
-        jQuery.viewImage({
-            'target' : '.gallery img,.dynamics_excerpt img,.song a', //需要使用ViewImage的图片
-            'delay'  : 300                //延迟时间
-        });
-    });
+jQuery(document).ready(function($){
+    $(".gallery-item img").each(function(){
+
+    var _a = $("").attr("href",this.src);
+    var element = document.createElement("a");
+    $(element).attr("data-fancybox", "gallery");
+    $(element).attr("href", $(this).attr("src"));
+    $(element).attr("data-caption", $(this).attr("alt"));
+    $(this).wrap(element);
+    })
+});
+
 </script>
  </body>
 </html>
