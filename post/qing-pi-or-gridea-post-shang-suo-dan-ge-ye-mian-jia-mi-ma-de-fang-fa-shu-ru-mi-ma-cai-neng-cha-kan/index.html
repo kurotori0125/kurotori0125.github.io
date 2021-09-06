@@ -2,7 +2,7 @@
 <html lang="zh-CN">
  <head>
      <meta charset="utf-8" />
-  <title>【Boystory | 13】赫胥黎如是说 | 圆形废墟 The Circular Ruins</title>
+  <title>【青皮 | Gridea】post上锁 / 单个页面加密码的方法 / 文章输入密码才能查看 | 圆形废墟 The Circular Ruins</title>
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
   <link rel="stylesheet" href="https://kurotori0125.github.io/styles/main.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
@@ -106,58 +106,43 @@
      <div class="post-page">
       <div class="post animated fadeInDown">
        <div class="post-title">
-        <h3><a>【Boystory | 13】赫胥黎如是说</a></h3>
+        <h3><a>【青皮 | Gridea】post上锁 / 单个页面加密码的方法 / 文章输入密码才能查看</a></h3>
        </div>
        <div class="post-content">
     
-        <blockquote>
-<p>what a brave new world</p>
-<p>重生向一直是我搞13的初心</p>
-</blockquote>
-<!-- more -->
+        <p>本人代码小白，只是为了自己的文章加个密码，script是网上搜的稍微改了一下<br>
+<a href="https://blog.csdn.net/weixin_34397291/article/details/91694971">源地址点击</a><br>
+不保证任何bug，也不知道对整体有什么影响，我自己暂时使用可行，大家慎重使用。（2021/09/06)</p>
 <blockquote>
-<p>论为什么改成两头快穿，因为我不想给老三再安排什么沉江了！</p>
-<p>没有中心思想，就是开心搞131</p>
+<p>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!第一行和最后一行 脚本改成script</p>
+<p>然后复制下面的代码粘贴于gridea客户端写文章页面的正文部分顶端</p>
+<p>111111111111111111111改成你需要的密码</p>
+<p>19960319是次数，如果有人输入密码超过这个次数就会进入页面</p>
+<p>不过我觉得数字设大一点一般看文的不会有这个耐心或技能破解吧</p>
+<p>提醒：这个不是完全保险，懂技术的完全能破解，仅供面向一般读者，慎重使用</p>
 </blockquote>
-<h2 id="0-大纲">0. 大纲</h2>
-<p>老三告白下一秒就要失败的时候穿回小时候</p>
-<p>花时间适应身心变化</p>
-<ol>
-<li>面对一堆小孩子总是容易高目线</li>
-<li>书漾：”隆哥练习生的时候对我很好的，现在吧 就是差距有点大。“</li>
-</ol>
-<p>争宠是人生大事</p>
-<ol>
-<li>天怕地怕什么都怕的时候1gg就来了</li>
-<li>互穿衣服梗 今天弟弟line夸1gg的衣服 第二天贺三就穿出来立正宫地位（？ but 没人get到他</li>
-<li>向宝葵是什么？你们出去吃火锅不告诉我？</li>
-</ol>
-<p>对苟苟发火？影响团队建设被队长约谈</p>
-<ol>
-<li>第一次正视情况，不把它当成存档的游戏</li>
-<li>依旧要像上辈子一样团结努力才可以再次登顶</li>
-<li>苟苟来关心生病的贺三，贺三抱着他痛哭</li>
-<li>大哥摸摸头！全员555时刻</li>
-</ol>
-<p>出道showcase</p>
-<pre><code>1. 等等我还是重看一遍超级出道再来写
-2. 反正就是感人？然后深夜13谈心时刻
-3. 我们以后一定会很红，等我们长大了他们就不会对我带有偏见
-4. 1gg当他小孩子发言，但也相信，伸出手捏了捏隆隆的手
-5. 一瞬间隆隆不想搞什么zz养成了，~~（前面慢慢发现其实不是一个时间线？）~~但是很安心的睡着了。
-</code></pre>
-<p>穿回去了……</p>
-<p>看着长大的贾涵予，老三楞了一下，感觉有点陌生</p>
-<p>老三收起了一切安排，微笑着听1gg讲完了他要结婚的事。</p>
-<p>你告诉他们了吗？</p>
-<p>还没呢，先告诉你了，过几天喊大家一起出来聚一聚吧。</p>
-<p>​	不单是成人心智的他来到了孩子的世界，他们依旧要和上辈子一样团结努力才能再次登顶</p>
-<p>​	”隆哥为什么最近有点变了？“ “青春期吧。”</p>
-<h2 id="1">1.</h2>
-<p>贺鑫隆觉得现在场面一度十分尴尬。</p>
-<p>上一秒他费尽心思策划的告白才被前来赴宴的贾涵予手上刺眼的戒指闪得支离破碎，还没等他抬手阻止即将响起的音乐和暗下的灯光，他一晃神就被近在咫尺的婴儿肥睡颜吓了一跳。</p>
-<p>等等，我在哪？为什么我被搂着？你你你，你是几岁的贾涵予？</p>
-<p>贺鑫隆不敢轻举妄动，</p>
+<p>&lt;脚本 language = JavaScript&gt;<br>
+function password() {<br>
+var testV = 1;<br>
+var pass1 = prompt('请输入密码','');<br>
+var passwordforthisarticle = &quot;111111111111111111111&quot;;<br>
+var inputtimemax = 19960319;<br>
+while (testV &lt; inputtimemax) {<br>
+if (!pass1)<br>
+history.go(-1);<br>
+if (pass1 == passwordforthisarticle) {<br>
+break;<br>
+}<br>
+testV+=1;<br>
+var pass1 =<br>
+prompt('密码错误!');<br>
+}<br>
+if (pass1!= passwordforthisarticle &amp; testV == inputtimemax)<br>
+history.go(-1);<br>
+return &quot; &quot;;<br>
+}<br>
+document.write(password());<br>
+&lt;/脚本&gt;</p>
 
     
         
@@ -166,18 +151,10 @@
         <div class="meta">
          <div class="info">
           <i class="fa fa-sun-o"></i>
-          <span class="date">2019-11-08</span>
+          <span class="date">2021-09-03</span>
           <i class="fa fa-tag"></i>
           
-          <a class="tag" href="https://kurotori0125.github.io/tag/Vwf-sfDQ7/" title="CP-13予隆">CP-13予隆 </a>
-          
-          <a class="tag" href="https://kurotori0125.github.io/tag/gUAOBb4t0/" title="P-贾涵予">P-贾涵予 </a>
-          
-          <a class="tag" href="https://kurotori0125.github.io/tag/hW7QfxtQy/" title="F-Boystory">F-Boystory </a>
-          
-          <a class="tag" href="https://kurotori0125.github.io/tag/cTaUrBsrO/" title="N-中国">N-中国 </a>
-          
-          <a class="tag" href="https://kurotori0125.github.io/tag/ICsANSJqG/" title="A-fanfiction">A-fanfiction </a>
+          <a class="tag" href="https://kurotori0125.github.io/tag/MvCL6lq0p/" title="Gridea">Gridea </a>
           
          </div>
         </div>
@@ -191,7 +168,7 @@
         <a class="fa fa-weibo" href="javascript:void((function(s,d,e){try{}catch(e){}var f='http://service.weibo.com/share/share.php?',u=d.location.href,p=['url=',e(u),'&amp;title=',e(d.title),'&amp;appkey=2924220432'].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=620,height=450,left=',(s.width-620)/2,',top=',(s.height-450)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent)){setTimeout(a,0)}else{a()}})(screen,document,encodeURIComponent));"></a>
        </div>
        <div class="twitter">
-        <a class="fa fa-twitter" href="http://twitter.com/home?status=,https://kurotori0125.github.io/post/13-he-xu-li-ru-shi-shuo/,;"></a>
+        <a class="fa fa-twitter" href="http://twitter.com/home?status=,https://kurotori0125.github.io/post/qing-pi-or-gridea-post-shang-suo-dan-ge-ye-mian-jia-mi-ma-de-fang-fa-shu-ru-mi-ma-cai-neng-cha-kan/,;"></a>
        </div>
       </div>
       <div class="pagination">
@@ -238,10 +215,8 @@
 
 
 
-        <li class="pre pagbuttons"><a class="btn" role="navigation" href="https://kurotori0125.github.io/post/all1-huang-ye/" title="【Boystory | all1】荒野">上一篇</a></li>
-         
         
-        <li class="next pagbuttons"><a class="btn" role="navigation" href="https://kurotori0125.github.io/post/13-nan-gang-ai-qing-gu-shi/" title=" 【Boystory | 13】南港爱情故事">下一篇</a></li>
+        <li class="next pagbuttons"><a class="btn" role="navigation" href="https://kurotori0125.github.io/post/test/" title=" test">下一篇</a></li>
         
        </ul>
       </div>
