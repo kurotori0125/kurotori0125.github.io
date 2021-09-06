@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kurotori0125.github.io</id>
     <title>圆形废墟 The Circular Ruins</title>
-    <updated>2021-09-06T17:38:15.459Z</updated>
+    <updated>2021-09-06T18:19:24.233Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://kurotori0125.github.io"/>
     <link rel="self" href="https://kurotori0125.github.io/atom.xml"/>
@@ -12,44 +12,32 @@
     <icon>https://kurotori0125.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, 圆形废墟 The Circular Ruins</rights>
     <entry>
-        <title type="html"><![CDATA[【青皮 | Gridea】post上锁 / 单个页面加密码的方法 / 文章输入密码才能查看]]></title>
-        <id>https://kurotori0125.github.io/post/qing-pi-or-gridea-post-shang-suo-dan-ge-ye-mian-jia-mi-ma-de-fang-fa-shu-ru-mi-ma-cai-neng-cha-kan/</id>
-        <link href="https://kurotori0125.github.io/post/qing-pi-or-gridea-post-shang-suo-dan-ge-ye-mian-jia-mi-ma-de-fang-fa-shu-ru-mi-ma-cai-neng-cha-kan/">
+        <title type="html"><![CDATA[1]]></title>
+        <id>https://kurotori0125.github.io/post/1/</id>
+        <link href="https://kurotori0125.github.io/post/1/">
         </link>
-        <updated>2021-09-03T04:58:48.000Z</updated>
+        <updated>2021-09-06T06:19:15.000Z</updated>
+        <content type="html"><![CDATA[<p>1</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【青皮 | Gridea】post上锁 / 单个页面加密码的方法 / 文章输入密码才能查看]]></title>
+        <id>https://kurotori0125.github.io/post/gridea-password/</id>
+        <link href="https://kurotori0125.github.io/post/gridea-password/">
+        </link>
+        <updated>2021-09-02T16:58:48.000Z</updated>
         <content type="html"><![CDATA[<p>本人代码小白，只是为了自己的文章加个密码，script是网上搜的稍微改了一下<br>
 <a href="https://blog.csdn.net/weixin_34397291/article/details/91694971">源地址点击</a><br>
 不保证任何bug，也不知道对整体有什么影响，我自己暂时使用可行，大家慎重使用。（2021/09/06)</p>
 <blockquote>
-<p>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!第一行和最后一行 脚本改成script</p>
-<p>然后复制下面的代码粘贴于gridea客户端写文章页面的正文部分顶端</p>
+<p><a href="http://ys-c.ys168.com/618290314/217212289/p722X5K264ML38kmSutd56/gridea-%E5%8D%95%E4%B8%AA%E9%A1%B5%E9%9D%A2%E5%8A%A0%E5%AF%86%E8%84%9A%E6%9C%AC.txt">首先点击这里下载txt，里面有需要的代码</a></p>
+<p>然后复制代码粘贴于gridea客户端写文章页面的正文部分顶端</p>
+<p>请输入密码的文字也可以改成你这篇文章的密码提示</p>
 <p>111111111111111111111改成你需要的密码</p>
 <p>19960319是次数，如果有人输入密码超过这个次数就会进入页面</p>
 <p>不过我觉得数字设大一点一般看文的不会有这个耐心或技能破解吧</p>
 <p>提醒：这个不是完全保险，懂技术的完全能破解，仅供面向一般读者，慎重使用</p>
 </blockquote>
-<p>&lt;脚本 language = JavaScript&gt;<br>
-function password() {<br>
-var testV = 1;<br>
-var pass1 = prompt('请输入密码','');<br>
-var passwordforthisarticle = &quot;111111111111111111111&quot;;<br>
-var inputtimemax = 19960319;<br>
-while (testV &lt; inputtimemax) {<br>
-if (!pass1)<br>
-history.go(-1);<br>
-if (pass1 == passwordforthisarticle) {<br>
-break;<br>
-}<br>
-testV+=1;<br>
-var pass1 =<br>
-prompt('密码错误!');<br>
-}<br>
-if (pass1!= passwordforthisarticle &amp; testV == inputtimemax)<br>
-history.go(-1);<br>
-return &quot; &quot;;<br>
-}<br>
-document.write(password());<br>
-&lt;/脚本&gt;</p>
 ]]></content>
     </entry>
     <entry>
@@ -932,45 +920,6 @@ Johnny's webについて  利用規約<br>
 ファンの皆様へ注意とお願い<br>
 2003 Johnny&amp;Associates</p>
 <p>JASRAC 9010733035Y45040</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ 【青皮】人生最后一个暑假要做的事]]></title>
-        <id>https://kurotori0125.github.io/post/ren-sheng-zui-hou-yi-ge-shu-jia-yao-zuo-de-shi/</id>
-        <link href="https://kurotori0125.github.io/post/ren-sheng-zui-hou-yi-ge-shu-jia-yao-zuo-de-shi/">
-        </link>
-        <updated>2021-05-25T06:25:33.000Z</updated>
-        <content type="html"><![CDATA[<ol>
-<li><s>画一张黑火车</s></li>
-<li><s>做一个奶奶家的模型</s></li>
-<li><s>捏一个萤火虫黏土</s></li>
-<li><s>断网一周住奶奶家</s></li>
-<li>看完卢梭忏悔录</li>
-<li><s>搭建完gridea网站/wix 图文一体</s></li>
-<li>长江边写生</li>
-<li>公园里写生</li>
-<li>菜市场写生</li>
-<li>车站写生</li>
-<li><s>看notion搭建</s></li>
-<li><s>存档这学期的视频和学习资料</s></li>
-<li>更新简历和作品集</li>
-<li>去成都</li>
-<li>去重庆</li>
-<li><s>去云南</s></li>
-<li>做一个map标记去过或者做过项目的地方</li>
-<li>做一次滴胶</li>
-<li><s>录一个24小时的手机录音</s></li>
-<li>学完车，自己开出去一天</li>
-<li>买一个拍立得</li>
-<li><s>复健钢琴或者学习吉他</s></li>
-<li>游个泳</li>
-<li>写一个不是同人的故事</li>
-<li>做完博尔赫斯的采访翻译</li>
-<li>坐公交车，看心情随意上下车，看能到哪里去。（来自网络）</li>
-<li><s>了解海龟</s></li>
-<li><s>撕掉墙纸，画壁画，all about me</s></li>
-<li></li>
-</ol>
 ]]></content>
     </entry>
 </feed>
