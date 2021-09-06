@@ -2382,12 +2382,6 @@ table {
 .post-content tr:nth-child(even) {
   background-color: #F7FAFC;
 }
-.post-content p {
-  overflow: hidden;
-  display: -webkit-box;
-  -webkit-line-clamp: 2000;
-  -webkit-box-orient: vertical;
-}
 .hljs {
   display: block;
   padding: 0.5em;
