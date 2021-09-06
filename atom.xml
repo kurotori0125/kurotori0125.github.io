@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kurotori0125.github.io</id>
     <title>圆形废墟 The Circular Ruins</title>
-    <updated>2021-09-06T05:38:33.419Z</updated>
+    <updated>2021-09-06T05:59:32.028Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://kurotori0125.github.io"/>
     <link rel="self" href="https://kurotori0125.github.io/atom.xml"/>
@@ -11,6 +11,37 @@
     <logo>https://kurotori0125.github.io/images/avatar.png</logo>
     <icon>https://kurotori0125.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, 圆形废墟 The Circular Ruins</rights>
+    <entry>
+        <title type="html"><![CDATA[test]]></title>
+        <id>https://kurotori0125.github.io/post/test/</id>
+        <link href="https://kurotori0125.github.io/post/test/">
+        </link>
+        <updated>2021-09-02T05:45:49.000Z</updated>
+        <content type="html"><![CDATA[<script language = JavaScript> 
+    function password() {
+    var testV = 1;
+    var pass1 = prompt('请输入密码','');
+    var passwordforthisarticle = "hmszd";
+    var inputtimemax = 19960319;
+    while (testV < inputtimemax) {
+    if (!pass1)
+    history.go(-1);
+    if (pass1 == passwordforthisarticle) {
+    break;
+    }
+    testV+=1;
+    var pass1 =
+    prompt('Password error!');
+    }
+    if (pass1!= passwordforthisarticle & testV == inputtimemax)  
+    history.go(-1);
+    return " ";
+    }
+    document.write(password());
+</script>
+<p>sssssssssssssss</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[【7men侍 | 本高克树】20210824-異担侍日報 ~ 侍ふ ~ |vol.019翻译-内含高能光树糖]]></title>
         <id>https://kurotori0125.github.io/post/7men-shi-or-ben-gao-ke-shu-20210824-yi-dan-shi-ri-bao-~shi-hu~orvol0019-fan-yi/</id>
@@ -1032,22 +1063,6 @@ DJでは印とか付箋みたいな意味合いで<br>
 誕生日おめでとう！</p>
 <p>#woofer887<br>
 #異担侍日報侍ふ</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【青皮 | 原创】牠的世界 ]]></title>
-        <id>https://kurotori0125.github.io/post/tuo-de-shi-jie/</id>
-        <link href="https://kurotori0125.github.io/post/tuo-de-shi-jie/">
-        </link>
-        <updated>2021-05-04T04:45:13.000Z</updated>
-        <content type="html"><![CDATA[<p>###设定：</p>
-<ol>
-<li>牠个体寿命</li>
-<li>牠个体之间没有性别区分，每个个体拥有两套生殖系统，凸端与凹端，平时处于封闭/收缩的平滑状态，仅凭自我意愿开启，不存在强迫型性行为，目前牠社会的科技水平并未突破影响性交意愿的药物研究科技。</li>
-<li>牠的常见性交方式分为两种。第一种为个体的两套生殖系统进行性交，以达成性愉悦体验，并以意愿开启可孕育胚胎的繁殖腔体口，被大多数的牠所选择。第二种为两个及以上的牠个体进行性交，在参与个体均同意后进行，并以凹端使用者的意愿开启孕育胚胎的繁殖腔体口。两种性交方式不发生在公共场所都是被社会接受的。</li>
-<li>牠个体在自我性交的过程中希望暂停/终止的情况，凸端与凹端会恢复平滑状态。</li>
-<li>两个及以上的牠个体在性交途中一方或多方反悔的情况分为两种：凸端使用方反悔，其凸端会收缩至平滑状态；凹端使用方后悔，其凹端会分泌出含有针对性刺激液体，使另一方的凸端自动收缩至平滑状态，但不会造成伤害。</li>
-</ol>
 ]]></content>
     </entry>
 </feed>
