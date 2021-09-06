@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kurotori0125.github.io</id>
     <title>圆形废墟 The Circular Ruins</title>
-    <updated>2021-09-06T02:12:42.257Z</updated>
+    <updated>2021-09-06T03:14:29.910Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://kurotori0125.github.io"/>
     <link rel="self" href="https://kurotori0125.github.io/atom.xml"/>
@@ -12,17 +12,39 @@
     <icon>https://kurotori0125.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, 圆形废墟 The Circular Ruins</rights>
     <entry>
-        <title type="html"><![CDATA[test测试]]></title>
+        <title type="html"><![CDATA[加密测试]]></title>
         <id>https://kurotori0125.github.io/post/test-ce-shi/</id>
         <link href="https://kurotori0125.github.io/post/test-ce-shi/">
         </link>
-        <updated>2021-09-04T08:26:06.000Z</updated>
+        <updated>2021-09-02T08:26:06.000Z</updated>
         <content type="html"><![CDATA[<h1 id="1">1</h1>
 <p>啊实打实</p>
 <h2 id="2">2</h2>
 <h3 id="3">3</h3>
 <p>是的房间里</p>
-]]></content>
+<script language = JavaScript>
+
+function password() {
+var testV = 1;
+var pass1 = prompt('请输入密码/Please input the password!','');
+while (testV < 2) {
+if (!pass1)
+history.go(-1);
+if (pass1 == "hmszd") {
+break;
+}
+testV+=1;
+var pass1 =
+prompt('密码错误/Password error!');
+}
+if (pass1!="password" & testV ==1)
+window.opener=null;
+window.close();
+return " ";
+}
+document.write(password());
+
+</script>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[【7men侍 | 本高克树】20210824-異担侍日報~侍ふ~|vol.019翻译-内含高能光树糖]]></title>
