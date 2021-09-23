@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kurotori0125.github.io</id>
     <title>圆形废墟 The Circular Ruins</title>
-    <updated>2021-09-23T16:50:58.240Z</updated>
+    <updated>2021-09-23T16:55:53.183Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://kurotori0125.github.io"/>
     <link rel="self" href="https://kurotori0125.github.io/atom.xml"/>
@@ -13,10 +13,10 @@
     <rights>All rights reserved 2021, 圆形废墟 The Circular Ruins</rights>
     <entry>
         <title type="html"><![CDATA[【青皮 | 阅读app】第一条书源编写成功~内含图片字提取方法]]></title>
-        <id>https://kurotori0125.github.io/post/qing-pi-or-yue-du-app-di-yi-tiao-shu-yuan-bian-xie-cheng-gong-~/</id>
-        <link href="https://kurotori0125.github.io/post/qing-pi-or-yue-du-app-di-yi-tiao-shu-yuan-bian-xie-cheng-gong-~/">
+        <id>https://kurotori0125.github.io/post/legado-tutorial1/</id>
+        <link href="https://kurotori0125.github.io/post/legado-tutorial1/">
         </link>
-        <updated>2021-09-10T21:59:42.000Z</updated>
+        <updated>2021-09-10T09:59:42.000Z</updated>
         <content type="html"><![CDATA[<p>其实为了改gridea的模板学了一些html，今天能成功搞出第一条书源还是很开心的（虽然这个网站肯定很快会挂，但是以后就不怕啦~</p>
 <ol>
 <li>
