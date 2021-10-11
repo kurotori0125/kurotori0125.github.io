@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kurotori0125.github.io</id>
     <title>圆形废墟 The Circular Ruins</title>
-    <updated>2021-09-23T16:58:16.867Z</updated>
+    <updated>2021-10-11T16:54:35.731Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://kurotori0125.github.io"/>
     <link rel="self" href="https://kurotori0125.github.io/atom.xml"/>
@@ -11,6 +11,14 @@
     <logo>https://kurotori0125.github.io/images/avatar.png</logo>
     <icon>https://kurotori0125.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, 圆形废墟 The Circular Ruins</rights>
+    <entry>
+        <title type="html"><![CDATA[test anchor.fm audio]]></title>
+        <id>https://kurotori0125.github.io/post/test-anchorfm-audio/</id>
+        <link href="https://kurotori0125.github.io/post/test-anchorfm-audio/">
+        </link>
+        <updated>2021-10-11T04:33:58.000Z</updated>
+        <content type="html"><![CDATA[<iframe src="https://anchor.fm/kurotori1788c/embed/episodes/test-e18ks2d" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[【青皮 | 阅读app】第一条书源编写成功~内含图片字提取方法]]></title>
         <id>https://kurotori0125.github.io/post/legado-tutorial1/</id>
@@ -908,45 +916,6 @@ Johnny's webについて  利用規約<br>
 ファンの皆様へ注意とお願い<br>
 2003 Johnny&amp;Associates</p>
 <p>JASRAC 9010733035Y45040</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ 【青皮】人生最后一个暑假要做的事]]></title>
-        <id>https://kurotori0125.github.io/post/ren-sheng-zui-hou-yi-ge-shu-jia-yao-zuo-de-shi/</id>
-        <link href="https://kurotori0125.github.io/post/ren-sheng-zui-hou-yi-ge-shu-jia-yao-zuo-de-shi/">
-        </link>
-        <updated>2021-05-25T06:25:33.000Z</updated>
-        <content type="html"><![CDATA[<ol>
-<li><s>画一张黑火车</s></li>
-<li><s>做一个奶奶家的模型</s></li>
-<li><s>捏一个萤火虫黏土</s></li>
-<li><s>断网一周住奶奶家</s></li>
-<li>看完卢梭忏悔录</li>
-<li><s>搭建完gridea网站/wix 图文一体</s></li>
-<li>长江边写生</li>
-<li>公园里写生</li>
-<li>菜市场写生</li>
-<li>车站写生</li>
-<li><s>看notion搭建</s></li>
-<li><s>存档这学期的视频和学习资料</s></li>
-<li>更新简历和作品集</li>
-<li>去成都</li>
-<li>去重庆</li>
-<li><s>去云南</s></li>
-<li>做一个map标记去过或者做过项目的地方</li>
-<li>做一次滴胶</li>
-<li><s>录一个24小时的手机录音</s></li>
-<li>学完车，自己开出去一天</li>
-<li>买一个拍立得</li>
-<li><s>复健钢琴或者学习吉他</s></li>
-<li>游个泳</li>
-<li>写一个不是同人的故事</li>
-<li>做完博尔赫斯的采访翻译</li>
-<li>坐公交车，看心情随意上下车，看能到哪里去。（来自网络）</li>
-<li><s>了解海龟</s></li>
-<li><s>撕掉墙纸，画壁画，all about me</s></li>
-<li></li>
-</ol>
 ]]></content>
     </entry>
 </feed>
